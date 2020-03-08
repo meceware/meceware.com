@@ -136,9 +136,13 @@ body, html {
   @apply border py-1 px-3;
 }
 
+.markdown code {
+  @apply bg-gray-200 whitespace-pre-wrap p1;
+}
+
 /* Override pygments style background color. */
-.markdown .highlight pre {
-  @apply bg-gray-100 !important;
+.markdown pre {
+  @apply bg-gray-200 !important;
 }
 
 .markdown iframe {
