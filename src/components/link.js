@@ -22,7 +22,7 @@ const Link = ( { children, to, activeClassName, partiallyActive, out, ...other }
   }
 
   return (
-    <a href = { to } { ...other } rel = { other.target === '_blank' ? 'noopener noreferrer' : undefined }>
+    <a href = { to } { ...other } rel = { other.target === '_blank' ? 'noopener noreferrer' : undefined } data-out = 'true'>
       { children }
     </a>
   );

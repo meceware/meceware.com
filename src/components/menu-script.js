@@ -7,6 +7,15 @@ class NavMenuScript extends React.Component {
     if ( ! this.props.fixed ) {
       new window.Mhead( 'header' );
     }
+
+    // TODO: Disable router for out links, otherwise 404 error is returned
+    const links = document.querySelectorAll( 'a[data-out]' );
+    for ( const link of links ) {
+      link.addEventListener( 'click', function( event ) {
+        event.stopImmediatePropagation();
+        return true;
+      } );
+    }
   }
 
   componentWillUnmount() {
