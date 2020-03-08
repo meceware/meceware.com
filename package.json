@@ -1,0 +1,77 @@
+{
+  "name": "meceware.com",
+  "description": "Mehmet Celik - Software Engineer / Backend Developer",
+  "version": "2.0.0",
+  "author": "@meceware",
+  "keywords": [
+    "meceware",
+    "tailwindcss",
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby clean && gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby clean && gatsby build && gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead",
+    "IE 11"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "classnames": "^2.2.6",
+    "gatsby": "2.19.32",
+    "gatsby-image": "^2.2.43",
+    "gatsby-plugin-advanced-sitemap": "^1.5.2",
+    "gatsby-plugin-canonical-urls": "^2.1.21",
+    "gatsby-plugin-catch-links": "^2.1.27",
+    "gatsby-plugin-google-analytics": "^2.1.37",
+    "gatsby-plugin-manifest": "^2.2.44",
+    "gatsby-plugin-meta-redirect": "^1.1.1",
+    "gatsby-plugin-no-sourcemaps": "^2.1.2",
+    "gatsby-plugin-offline": "^3.0.37",
+    "gatsby-plugin-polyfill-io": "^1.1.0",
+    "gatsby-plugin-postcss": "^2.1.21",
+    "gatsby-plugin-purgecss": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "^2.4.7",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-autolink-headers": "^2.1.25",
+    "gatsby-remark-copy-linked-files": "^2.1.38",
+    "gatsby-remark-images": "^3.1.46",
+    "gatsby-remark-responsive-iframe": "^2.2.33",
+    "gatsby-source-filesystem": "^2.1.50",
+    "gatsby-transformer-remark": "^2.6.55",
+    "gatsby-transformer-sharp": "^2.3.17",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-helmet": "^5.2.1",
+    "smooth-scroll": "^16.1.2",
+    "superagent": "^5.2.2"
+  },
+  "devDependencies": {
+    "@loadable/component": "^5.12.0",
+    "autoprefixer": "^9.7.4",
+    "babel-eslint": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-react": "^7.19.0",
+    "gatsby-plugin-eslint": "^2.0.8",
+    "mhead-js": "^2.0.0",
+    "tailwindcss": "1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meceware/meceware.com"
+  }
+}

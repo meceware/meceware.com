@@ -1,0 +1,218 @@
+/* purgecss start ignore */
+@tailwind base;
+
+body, html {
+  background: #e7eef4;
+}
+
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+#site {
+  min-width: 320px;
+}
+
+#menu-wrapper .hemenu-content {
+  background: #dbe6ef;
+}
+
+#menu-wrapper .hemenu-menu, .bg-body {
+  background: #e7eef4;
+}
+
+#menu-wrapper .hemenu-footer {
+  border-top: 1px solid #ced5da;
+}
+
+#menu ul li a.selected {
+	border-left: 5px solid #f2295b;
+}
+
+.docs-main .container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.opacity-01 {opacity: .1;}
+
+/* Additional vertical padding used by kbd tag. */
+.py-05 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+/* purgecss start ignore */
+/* Markdown support */
+.markdown {
+  @apply text-gray-800 leading-normal break-words;
+}
+
+.markdown p {
+  @apply mb-4;
+}
+
+.markdown > * + * {
+  @apply mt-0 mb-4;
+}
+
+.markdown li + li {
+  @apply mt-1;
+}
+
+.markdown strong {
+  @apply font-semibold;
+}
+
+.markdown a {
+  @apply text-red-600;
+}
+
+.markdown strong a {
+  @apply font-bold;
+}
+
+.markdown h1 {
+  @apply leading-tight border-b text-4xl font-semibold mb-4 mt-6 pb-2;
+}
+
+.markdown h2 {
+  @apply leading-tight border-b text-2xl font-semibold mb-4 mt-6 pb-2;
+}
+
+.markdown h3 {
+  @apply leading-snug text-lg font-semibold mb-4 mt-6;
+}
+
+.markdown h4 {
+  @apply leading-none text-base font-semibold mb-4 mt-6;
+}
+
+.markdown h5 {
+  @apply leading-tight text-sm font-semibold mb-4 mt-6;
+}
+
+.markdown h6 {
+  @apply leading-tight text-sm font-semibold text-gray-600 mb-4 mt-6;
+}
+
+.markdown blockquote {
+  @apply text-base border-l-4 border-gray-300 pl-4 pr-4 text-gray-600;
+}
+
+.markdown code {
+  @apply font-mono text-sm inline bg-gray-200 rounded px-1 py-05;
+}
+
+.markdown pre {
+  @apply bg-gray-100 rounded p-4 whitespace-pre-wrap break-words;
+}
+
+.markdown pre code {
+  @apply block bg-transparent p-0 overflow-visible rounded-none;
+}
+
+.markdown ul {
+  @apply text-base pl-8 list-disc;
+}
+
+.markdown ol {
+  @apply text-base pl-8 list-decimal;
+}
+
+.markdown kbd {
+  @apply text-xs inline-block rounded border px-1 py-05 align-middle font-normal font-mono shadow;
+}
+
+.markdown table {
+  @apply text-base border-gray-600;
+}
+
+.markdown th {
+  @apply border py-1 px-3;
+}
+
+.markdown td {
+  @apply border py-1 px-3;
+}
+
+/* Override pygments style background color. */
+.markdown .highlight pre {
+  @apply bg-gray-100 !important;
+}
+
+.markdown iframe {
+  @apply block mx-auto max-w-full;
+}
+
+.markdown a.button {
+  @apply inline-block uppercase mx-auto shadow bg-red-600 text-white text-xs py-3 px-10 rounded duration-500 ease-in-out;
+}
+.markdown a.button:hover{
+  @apply bg-red-700;
+}
+
+.markdown a.button:focus{
+  @apply shadow-outline outline-none;
+}
+/* purgecss end ignore */
+
+/* Documentation left sidebar */
+@media only screen and (min-width: 1024px) {
+  .docs-nav-container {
+    flex: 0 0 240px;
+    max-height: calc(100vh - 6rem);
+    top: 5.5rem;
+  }
+}
+
+/* Documentation right sidebar */
+.docs-nav-container::-webkit-scrollbar,
+.docs-toc::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.docs-nav-container::-webkit-scrollbar-track,
+.docs-toc::-webkit-scrollbar-track {
+  @apply bg-gray-400 rounded-lg;
+}
+
+.docs-nav-container::-webkit-scrollbar-thumb,
+.docs-toc::-webkit-scrollbar-thumb {
+  @apply bg-gray-500 rounded-lg;
+}
+
+.docs-nav-container::-webkit-scrollbar-thumb:hover,
+.docs-toc::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+.docs-toc a {
+  @apply text-gray-800;
+}
+
+.docs-toc ul > li > a:active,
+.docs-toc ul > li > a.,
+.docs-toc ul > li > a:hover,
+.docs-toc ul > li > a.hover {
+  @apply font-semibold text-blue-900;
+}
+
+.docs-toc ul li {
+  @apply text-xs leading-6;
+}
+
+.docs-toc ul ul {
+  @apply pt-1 pl-4;
+}
+
+@supports ( ( position: -webkit-sticky ) or ( position: sticky ) ) {
+  @media only screen and ( min-width: 768px ) {
+    .docs-toc {
+      @apply self-start block;
+      flex: 0 0 240px;
+      max-height: calc(100vh - 6rem);
+      top: 5.5rem;
+    }
+  }
+}
