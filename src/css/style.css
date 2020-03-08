@@ -1,4 +1,4 @@
-/* purgecss start ignore */
+/*! purgecss start ignore */
 @tailwind base;
 
 body, html {
@@ -6,7 +6,7 @@ body, html {
 }
 
 @tailwind components;
-/* purgecss end ignore */
+/*! purgecss end ignore */
 @tailwind utilities;
 
 #site {
@@ -42,7 +42,7 @@ body, html {
   padding-bottom: 0.125rem;
 }
 
-/* purgecss start ignore */
+/*! purgecss start ignore */
 /* Markdown support */
 .markdown {
   @apply text-gray-800 leading-normal break-words;
@@ -136,12 +136,8 @@ body, html {
   @apply border py-1 px-3;
 }
 
-.markdown code {
-  @apply bg-gray-200 whitespace-pre-wrap p1;
-}
-
 /* Override pygments style background color. */
-.markdown pre {
+.markdown .highlight pre {
   @apply bg-gray-200 !important;
 }
 
@@ -159,7 +155,7 @@ body, html {
 .markdown a.button:focus{
   @apply shadow-outline outline-none;
 }
-/* purgecss end ignore */
+/*! purgecss end ignore */
 
 /* Documentation left sidebar */
 @media only screen and (min-width: 1024px) {
