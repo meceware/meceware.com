@@ -6,7 +6,8 @@
 		"es6": true
   },
   // https://github.com/babel/babel-eslint
-  "parser": "babel-eslint",
+	"parser": "babel-eslint",
+	"ignorePatterns": [ "temp.js", "node_modules/", "third_party/" ],
   "rules": {
 		"array-bracket-spacing": ["error", "always"],
 		"brace-style": ["error", "1tbs"],

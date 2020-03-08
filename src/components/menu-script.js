@@ -1,17 +1,16 @@
 import React, { Fragment } from 'react';
 import 'mhead-js';
-import heMenu from '../../third-party/hemenu';
 
 class NavMenuScript extends React.Component {
   componentDidMount() {
-    heMenu.scan();
+    window.heMenu.scan();
     if ( ! this.props.fixed ) {
       new window.Mhead( 'header' );
     }
   }
 
   componentWillUnmount() {
-    heMenu.destroy();
+    window.heMenu.destroy();
   }
 
   render() {
