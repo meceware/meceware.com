@@ -45,7 +45,7 @@ const Header = ( props ) => {
 
                 </div>
                 <div className = 'flex-no-grow flex-shrink-0 relative py-1 px-2 lg:px-4 leading-normal text-white no-underline flex items-center' style = { { maxWidth: '4rem' } }>
-                  <NavMenu fixed = { props.fixed } />
+                  <NavMenu />
                 </div>
               </div>
             </div>

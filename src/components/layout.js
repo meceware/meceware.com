@@ -15,7 +15,7 @@ export default ( props ) => {
       ) } >
         { props.children }
       </main>
-      <Footer />
+      <Footer fixed = { props.fixed } />
     </div>
   );
 };

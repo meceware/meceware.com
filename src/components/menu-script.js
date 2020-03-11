@@ -3,7 +3,14 @@ import 'mhead-js';
 
 class NavMenuScript extends React.Component {
   componentDidMount() {
-    window.heMenu.scan();
+    new window.heMenu( '#menu-wrapper', {
+      trigger: '#menuToggle',
+      menu: '.hemenu-menu',
+      title: 'Menu',
+      selected: 'selected',
+      theme: 'light',
+      position: 'right',
+    } );
     if ( ! this.props.fixed ) {
       new window.Mhead( 'header' );
     }
