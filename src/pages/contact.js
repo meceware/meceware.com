@@ -100,7 +100,7 @@ export default class Contact extends React.Component {
     const data = {};
     for ( let i = 0; i < contactForm.length; ++i ) {
       if ( contactForm[ i ].name ) {
-        data[ contactForm[ i ] ] = contactForm[ i ].value;
+        data[ contactForm[ i ].name ] = contactForm[ i ].value;
       }
     }
 
