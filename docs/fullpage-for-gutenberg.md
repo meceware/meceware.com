@@ -13,7 +13,7 @@ Create beautiful fullscreen scrolling web sites with **WordPress** and **Gutenbe
 
 [![FullPage for Gutenberg](assets/fullpage-for-gutenberg/banner-compressed.png "FullPage for Gutenberg")](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/)
 
-<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="https://alvarotrigo.com/fullPage/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForGutenberg">BUY</a></p>
+<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-gutenberg/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForGutenberg">BUY</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="#faq">FAQ</a></p>
 
 This plugin simplifies creation of fullscreen scrolling websites with WordPress and saves you big time.
 
@@ -132,7 +132,7 @@ The license key you obtained by buying the plugin can be entered at WordPress ad
 
 ![License Settings](assets/fullpage-for-gutenberg/settings.jpg "License Settings")
 
-After entering the license, press on *Save Changes* button. This will activate the license.
+After entering the license, press on *Activate* button. This will activate the license.
 
 ![License Activated](assets/fullpage-for-gutenberg/settings-activated.jpg "License Activated")
 
@@ -535,7 +535,11 @@ If needed, any extra fullpage.js parameters can be used.
 
 ### Video Autoplay
 
-If the page has video(s) in sections, this parameter will make the videos play when the section is visible, otherwise pauses on section leave.
+If the page has video(s) in sections/slides, this parameter will make the videos play when the section is visible, otherwise pauses on section leave.
+
+### Video Keep Playing
+
+If the page has video(s) in sections/slides, this parameter will make the videos play all the time, even if the section/slide is not in the view.
 
 ### Remove Theme Margins
 
@@ -544,6 +548,10 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 ### Force Fixed Theme Header
 
 This option tries to make the header fixed at the top, and arranges the section content accordingly. **Theme Header Selector** option should be given as a Javascript selector.
+
+### Show Theme Footer
+
+This option tries to move the specified site footer as an auto-height section at the end. **Theme Footer Selector** option should be given as a Javascript selector.
 
 ### Advanced Parameters
 
@@ -579,3 +587,33 @@ Enable this option if you want to remove theme Javascript files, on necessary ca
 #### Remove JS
 
 This parameter removes specified Javascript file from output. Be aware, this might crash the page output. Write javascript names with comma in between.
+
+## FAQ
+
+#### Can I move my license to another server?
+
+Yes, you can! You can *deactivate* your license on your old server and use the same license on your new server. Don't forget to *Deactivate*. Please see [License Key](#license-key "License Key") section for more information.
+
+#### How can I generate the invoice for the plugin?
+
+You would have received an email from Gumroad that shows the plugin license key as well as an *Invoice* button. You can generate your invoice by clicking on that button.
+
+#### I cannot see extensions even if I installed the Extensions plugin!
+
+FullPage extensions can be purchased seperately and is not available with the plugin out-of-the-box. If you haven't purchased any extension, you don't need to use/activate the extensions plugin.
+
+If you have purchased one or more extensions, please take a look at the [Extensions](#extensions "Extensions") section for the tutorial video that shows how to install them.
+
+#### How can I show a normal web site on mobile and fullpage scrolling web site on desktop?
+
+You can activate Responsive Mode. To activate Responsive Mode, please set [Responsive Width](#responsive-width "Responsive Width") option to `767` (or any screen width you want). That's it! For the screens that has width less than `767px`, a normal scrolling web site will be shown.
+
+You can also try setting [Responsive Auto-Height](#section-behaviour "Section Behaviour") option for the sections.
+
+#### I cannot see my header and footer!
+
+By default, empty page template is enabled. To disable it, please take a look at the [tutorial video](#enable-empty-page-template "Enable Empty Page Template").
+
+### I cannot scroll to my footer!
+
+If scrollbars are disabled, only the content inside the sections are visible. To be able to show the footer, it needs to be moved inside a section. You can use the [Show Theme Footer](#show-theme-footer "Show Theme Footer") customization.

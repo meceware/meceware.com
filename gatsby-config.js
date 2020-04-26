@@ -55,7 +55,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-eslint',
-    'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-no-sourcemaps',
     'gatsby-plugin-catch-links',

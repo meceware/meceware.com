@@ -13,7 +13,7 @@ Create beautiful fullscreen scrolling web sites with **WordPress** and **Element
 
 [![FullPage for Elementor](assets/fullpage-for-elementor/banner-compressed.png "FullPage for Elementor")](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/)
 
-<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="https://alvarotrigo.com/fullPage/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForElementor">BUY</a></p>
+<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-elementor/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForElementor">BUY</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="#faq">FAQ</a></p>
 
 This plugin simplifies creation of fullscreen scrolling websites with WordPress and saves you big time.
 
@@ -525,3 +525,33 @@ Enable this option if you want to remove theme Javascript files, on necessary ca
 ### Remove JS
 
 This parameter removes specified Javascript file from output. Be aware, this might crash the page output. Write javascript names with comma in between.
+
+## FAQ
+
+#### Can I move my license to another server?
+
+Yes, you can! You can *deactivate* your license on your old server and use the same license on your new server. Don't forget to *Deactivate*. Please see [License Key](#license-key "License Key") section for more information.
+
+#### How can I generate the invoice for the plugin?
+
+You would have received an email from Gumroad that shows the plugin license key as well as an *Invoice* button. You can generate your invoice by clicking on that button.
+
+#### I cannot see extensions even if I installed the Extensions plugin!
+
+FullPage extensions can be purchased seperately and is not available with the plugin out-of-the-box. If you haven't purchased any extension, you don't need to use/activate the extensions plugin.
+
+If you have purchased one or more extensions, please take a look at the [Extensions](#extensions "Extensions") section for the tutorial video that shows how to install them.
+
+#### How can I show a normal web site on mobile and fullpage scrolling web site on desktop?
+
+You can activate Responsive Mode. To activate Responsive Mode, please set [Responsive Width](#responsive-width "Responsive Width") option to `767` (or any screen width you want). That's it! For the screens that has width less than `767px`, a normal scrolling web site will be shown.
+
+You can also try setting [Responsive Auto-Height](#section-behaviour "Section Behaviour") option for the sections.
+
+#### I cannot see my header and footer!
+
+By default, empty page template is enabled. To disable it, please take a look at the [tutorial video](#enable-empty-page-template "Enable Empty Page Template").
+
+### I cannot scroll to my footer!
+
+If scrollbars are disabled, only the content inside the sections are visible. To be able to show the footer, it needs to be moved inside a section. You can use the [Show Theme Footer](#show-theme-footer "Show Theme Footer") customization.
