@@ -49,7 +49,7 @@ This plugin simplifies creation of fullscreen scrolling websites with WordPress 
 
 * **Animations**
 
-  5 CSS3 ease animations or 32 Javascript animations, whichever you prefer.
+  5 CSS3 ease animations or 32 JavaScript animations, whichever you prefer.
 
 * **Anchors**
 
@@ -81,7 +81,7 @@ This plugin simplifies creation of fullscreen scrolling websites with WordPress 
 
 * **Templates**
 
-  Use empty page template by default, use your own template, or use the theme template (might need Javascript and CSS skills)
+  Use empty page template by default, use your own template, or use the theme template (might need JavaScript and CSS skills)
 
 * **Auto-Updates**
 
@@ -374,11 +374,11 @@ A normal scroll will be used under the defined height in pixels. A class fp-resp
 
 ### Fixed Elements
 
-This option defines which elements will be taken off the scrolling structure of the plugin which is necessary when using the css3 option to keep them fixed. It requires a string with the Javascript selectors for those elements. (For example: fixedElements: '#element1, .element2')
+This option defines which elements will be taken off the scrolling structure of the plugin which is necessary when using the css3 option to keep them fixed. It requires a string with the JavaScript selectors for those elements. (For example: fixedElements: '#element1, .element2')
 
 ### Normal Scroll Elements
 
-If you want to avoid the auto scroll when scrolling over some elements, this is the option you need to use. (useful for maps, scrolling divs etc.) It requires a string with the Javascript selectors for those elements. (For example: normalScrollElements: '#element1, .element2'). This option should not be applied to any section/slide element itself.
+If you want to avoid the auto scroll when scrolling over some elements, this is the option you need to use. (useful for maps, scrolling elements etc.) It requires a string with the JavaScript selectors for those elements. (For example: normalScrollElements: '#element1, .element2'). This option should not be applied to any section/slide element itself.
 
 ### Custom CSS
 
@@ -386,7 +386,7 @@ You can add your custom CSS.
 
 ## Events
 
-Events section includes Javascript events for the plugin.
+Events section includes JavaScript events for the plugin.
 
 ![FullPage for Elementor Events](assets/fullpage-for-elementor/events.jpg "Events")
 
@@ -441,7 +441,7 @@ Extensions section includes FullPage Extension options. The extensions can be pu
 
 To add an extension, please follow the steps below:
 - Extract the extensions plugin zip (`mcw-fullpage-elementor-extensions.zip`) file on your computer.
-- Copy your extension javascript file (`*.js`) to your extension folder inside `{the plugin folder you extracted}/extensions`.
+- Copy your extension JavaScript file (`*.js`) to your extension folder inside `{the plugin folder you extracted}/extensions`.
 - Compress the file with `zip` compression.
 - Go to your admin panel of WordPress installation site.
 - Go to `Plugins` page.
@@ -479,7 +479,7 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 
 ### Force Fixed Theme Header
 
-This option tries to make the header fixed at the top, and arranges the section content accordingly. **Theme Header Selector** option should be given as a Javascript selector. **Theme Header Padding** option sets the section header paddings with respect to header height.
+This option tries to make the header fixed at the top, and arranges the section content accordingly. **Theme Header Selector** option should be given as a JavaScript selector. **Theme Header Padding** option sets the section header paddings with respect to header height.
 
 If you are designing your theme header using Elementor sections, or added your header inside a section, enable **Is Header a Section?** option.
 
@@ -506,7 +506,7 @@ FullPage does not depend on jQuery. But if you want to load jQuery on the page (
 
 This option enables Empty Page Template option. By default FullPage for Elementor comes with an empty page template, and this option is enabled. When FullPage is enabled, an empty page with no theme dependency is loaded.
 
-You can disable this option and load theme template. When this option is disabled, theme header and footer is loaded as well. You might need to know CSS and Javascript to change the behaviour of the page.
+You can disable this option and load theme template. When this option is disabled, theme header and footer is loaded as well. You might need to know CSS and JavaScript to change the behaviour of the page.
 
 ### Use Template Redirect
 
@@ -518,13 +518,13 @@ You can provide your own template, such as a modified version of the theme templ
 
 ### Remove Theme JS
 
-This parameter removes theme Javascript files from output. Be aware, this might crash the page output if the theme has JS output on the head section.
+This parameter removes theme JavaScript files from output. Be aware, this might crash the page output if the theme has JS output on the head section.
 
-Enable this option if you want to remove theme Javascript files, on necessary cases such as conflicts between theme and FullPage. Enabling this option is not recommended on production environments, and is used for debugging purposes.
+Enable this option if you want to remove theme JavaScript files, on necessary cases such as conflicts between theme and FullPage. Enabling this option is not recommended on production environments, and is used for debugging purposes.
 
 ### Remove JS
 
-This parameter removes specified Javascript file from output. Be aware, this might crash the page output. Write javascript names with comma in between.
+This parameter removes specified JavaScript file from output. Be aware, this might crash the page output. Write JavaScript names with comma in between.
 
 ## FAQ
 
@@ -538,7 +538,7 @@ You would have received an email from Gumroad that shows the plugin license key 
 
 #### I cannot see extensions even if I installed the Extensions plugin!
 
-FullPage extensions can be purchased seperately and is not available with the plugin out-of-the-box. If you haven't purchased any extension, you don't need to use/activate the extensions plugin.
+FullPage extensions can be purchased separately and is not available with the plugin out-of-the-box. If you haven't purchased any extension, you don't need to use/activate the extensions plugin.
 
 If you have purchased one or more extensions, please take a look at the [Extensions](#extensions "Extensions") section for the tutorial video that shows how to install them.
 
@@ -552,6 +552,6 @@ You can also try setting [Responsive Auto-Height](#section-behaviour "Section Be
 
 By default, empty page template is enabled. To disable it, please take a look at the [tutorial video](#enable-empty-page-template "Enable Empty Page Template").
 
-### I cannot scroll to my footer!
+#### I cannot scroll to my footer!
 
 If scrollbars are disabled, only the content inside the sections are visible. To be able to show the footer, it needs to be moved inside a section. You can use the [Show Theme Footer](#show-theme-footer "Show Theme Footer") customization.

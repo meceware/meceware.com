@@ -90,7 +90,7 @@ export default () => {
               },
               {
                 className: 'bg-indigo-500 hover:bg-indigo-600',
-                desc: 'Javascript Library',
+                desc: 'JavaScript Library',
                 title: 'iWideo',
                 link: 'https://meceware.github.io/iwideo/',
                 target: '_blank',

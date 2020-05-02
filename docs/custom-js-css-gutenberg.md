@@ -1,7 +1,7 @@
 ---
 id: custom-js-css-gutenberg
 title: Custom JS & CSS
-description: Easily add your Javascript, CSS and meta tags anywhere on your WordPress page.
+description: Easily add your JavaScript, CSS and meta tags anywhere on your WordPress page.
 featuredImage: assets/custom-js-css-gutenberg/banner-compressed.png
 button: buy
 link: https://codecanyon.net/item/custom-js-and-css-for-gutenberg/23562904
@@ -15,7 +15,7 @@ sort: 3
 
 * Easily add your code anywhere on your WordPress page.
 
-  * **Javascript**
+  * **JavaScript**
     * Between `<head>` and `</head>` tags.
     * Before closing `</body>` tag.
     * Right to the place of the block.
@@ -26,7 +26,7 @@ sort: 3
   * **Meta**
     * Between `<head>` and `</head>` tags.
 
-* Multiple Javascript & CSS on one page.
+* Multiple JavaScript & CSS on one page.
 * No output, other than your code.
 * Optimized and fast server side implementation.
 
@@ -52,20 +52,20 @@ sort: 3
 
 ![Add Custom JS & CSS Block With Gutenberg](assets/custom-js-css-gutenberg/add-compressed.gif "Add Custom JS & CSS Block With Gutenberg")
 
-## Javascript
+## JavaScript
 
-* Easily add your custom Javascript code to the page.
+* Easily add your custom JavaScript code to the page.
 * Minify the output.
-* Write in Modern Javascript (Babel) and it will be converted to ES2015 on the fly.
-* Easily add custom Javascript files to the page, including specified dependencies.
+* Write in Modern JavaScript (Babel) and it will be converted to ES2015 on the fly.
+* Easily add custom JavaScript files to the page, including specified dependencies.
 
-### Inline Javascript Code
+### Inline JavaScript Code
 
-The specified Javascript code is placed where the block is at the output.
+The specified JavaScript code is placed where the block is at the output.
 
 * Click on the block.
-* Expand Javascript panel.
-* Write your code inside the **Javascript (Inline)** text box.
+* Expand JavaScript panel.
+* Write your code inside the **JavaScript (Inline)** text box.
 * Click on Min button to minify the output.
 * Select JS or Babel options.
   * When JS is selected, the script will be printed *as is*.
@@ -73,7 +73,7 @@ The specified Javascript code is placed where the block is at the output.
 
 #### Example (JS)
 
-![Inline Javascript Code with Custom JS & CSS](assets/custom-js-css-gutenberg/js-inline-compressed.gif "Inline Javascript Code with Custom JS & CSS")
+![Inline JavaScript Code with Custom JS & CSS](assets/custom-js-css-gutenberg/js-inline-compressed.gif "Inline JavaScript Code with Custom JS & CSS")
 
 When JS is selected, the following code
 ```
@@ -88,7 +88,7 @@ console.log( str );
 will be
 
 ```
-<script type="text/Javascript">function welcome( name ) {
+<script type="text/JavaScript">function welcome( name ) {
   return 'Welcome ' + name;
 }
 
@@ -99,12 +99,12 @@ console.log( str );</script>
 and minified as
 
 ```
-<script type="text/Javascript">function welcome(e){return"Welcome "+e}var str=welcome("meceware");console.log(str);</script>
+<script type="text/JavaScript">function welcome(e){return"Welcome "+e}var str=welcome("meceware");console.log(str);</script>
 ```
 
 #### Example (Babel)
 
-![Inline Javascript Code (Babel) with Custom JS & CSS](assets/custom-js-css-gutenberg/js-inline-babel-compressed.gif "Inline Javascript Code (Babel) with Custom JS & CSS")
+![Inline JavaScript Code (Babel) with Custom JS & CSS](assets/custom-js-css-gutenberg/js-inline-babel-compressed.gif "Inline JavaScript Code (Babel) with Custom JS & CSS")
 
 When Babel is selected, the following code
 ```
@@ -118,7 +118,7 @@ console.log( str );
 will be
 
 ```
-<script type="text/Javascript">var welcome = function welcome(name) {
+<script type="text/JavaScript">var welcome = function welcome(name) {
   return 'Welcome ' + name;
 };
 
@@ -130,40 +130,40 @@ console.log(str);</script>
 and minified as
 
 ```
-<script type="text/Javascript">var welcome=function(e){return"Welcome "+e},str=welcome("meceware");console.log(str);</script>
+<script type="text/JavaScript">var welcome=function(e){return"Welcome "+e},str=welcome("meceware");console.log(str);</script>
 ```
 
-### Head Javascript
+### Head JavaScript
 
-The specified Javascript code is placed between `<head>` and `</head>` tags.
-
-* Click on the block.
-* Expand Javascript panel.
-* Enable **Enable Head Javascript** option.
-* Click on **Javascript Options (Head)** button to see the options. There will be a modal window.
-* Enter your Javascript code if you. The specified Javascript code will be placed between `<head>` and `</head>` tags. Leave empty if no code is required.
-  * When JS is selected, the script will be printed *as is*.
-  * When Babel is selected, the script will be converted to ES2015.
-* Enter your Javascript file URL. The specified URL will be placed between `<head>` and `</head>` tags. Leave empty if no file is required.
-* Enter your Javascript file dependencies (comma seperated). The Javascript file URL will be enqueued according to the specified dependencies. Leave empty if no dependency is required.
-
-![Head Javascript with Custom JS & CSS](assets/custom-js-css-gutenberg/js-head-compressed.gif "Head Javascript with Custom JS & CSS")
-
-### Footer Javascript
-
-The specified Javascript code is placed right before closing `</body>` tag.
+The specified JavaScript code is placed between `<head>` and `</head>` tags.
 
 * Click on the block.
-* Expand Javascript panel.
-* Enable **Enable Footer Javascript** option.
-* Click on **Javascript Options (Footer)** button to see the options. There will be a modal window.
-* Enter your Javascript code if you. The specified Javascript code will be placed before closing `</body>` tag. Leave empty if no code is required.
+* Expand JavaScript panel.
+* Enable **Enable Head JavaScript** option.
+* Click on **JavaScript Options (Head)** button to see the options. There will be a modal window.
+* Enter your JavaScript code if you. The specified JavaScript code will be placed between `<head>` and `</head>` tags. Leave empty if no code is required.
   * When JS is selected, the script will be printed *as is*.
   * When Babel is selected, the script will be converted to ES2015.
-* Enter your Javascript file URL. The specified URL will be placed before closing `</body>` tag. Leave empty if no file is required.
-* Enter your Javascript file dependencies (comma seperated). The Javascript file URL will be enqueued according to the specified dependencies. Leave empty if no dependency is required.
+* Enter your JavaScript file URL. The specified URL will be placed between `<head>` and `</head>` tags. Leave empty if no file is required.
+* Enter your JavaScript file dependencies (comma seperated). The JavaScript file URL will be enqueued according to the specified dependencies. Leave empty if no dependency is required.
 
-![Footer Javascript with Custom JS & CSS](assets/custom-js-css-gutenberg/js-footer-compressed.gif "Footer Javascript with Custom JS & CSS")
+![Head JavaScript with Custom JS & CSS](assets/custom-js-css-gutenberg/js-head-compressed.gif "Head JavaScript with Custom JS & CSS")
+
+### Footer JavaScript
+
+The specified JavaScript code is placed right before closing `</body>` tag.
+
+* Click on the block.
+* Expand JavaScript panel.
+* Enable **Enable Footer JavaScript** option.
+* Click on **JavaScript Options (Footer)** button to see the options. There will be a modal window.
+* Enter your JavaScript code if you. The specified JavaScript code will be placed before closing `</body>` tag. Leave empty if no code is required.
+  * When JS is selected, the script will be printed *as is*.
+  * When Babel is selected, the script will be converted to ES2015.
+* Enter your JavaScript file URL. The specified URL will be placed before closing `</body>` tag. Leave empty if no file is required.
+* Enter your JavaScript file dependencies (comma seperated). The JavaScript file URL will be enqueued according to the specified dependencies. Leave empty if no dependency is required.
+
+![Footer JavaScript with Custom JS & CSS](assets/custom-js-css-gutenberg/js-footer-compressed.gif "Footer JavaScript with Custom JS & CSS")
 
 ## CSS
 

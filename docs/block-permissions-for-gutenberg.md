@@ -23,7 +23,7 @@ Show Gutenberg editor blocks only to the target visitors or members you want wit
 
 * The content will be removed from HTML output if the rule applies.
 * Add multiple blocks inside Block Permissions.
-* No Javascript, no CSS at the output.
+* No JavaScript, no CSS at the output.
 
 * **Members**
 
