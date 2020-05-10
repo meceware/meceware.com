@@ -617,3 +617,7 @@ By default, empty page template is enabled. To disable it, please take a look at
 #### I cannot scroll to my footer!
 
 If scrollbars are disabled, only the content inside the sections are visible. To be able to show the footer, it needs to be moved inside a section. You can use the [Show Theme Footer](#show-theme-footer "Show Theme Footer") customization.
+
+#### Sections are getting cut off! I cannot see the rest of my content!
+
+When the scrollbars are disabled and your content is greater than the screen height, some of your content might be left outside of the viewport. To display these, you can enable [Scroll Overflow](#scroll-overflow "Scroll Overflow") option. This will create an in-section scrollbar.

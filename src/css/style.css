@@ -146,7 +146,7 @@ body, html {
 }
 
 .markdown a.button {
-  @apply inline-block uppercase mx-auto shadow bg-red-600 text-white text-xs py-3 px-10 rounded duration-500 ease-in-out;
+  @apply inline-block uppercase mx-auto shadow bg-red-600 text-white text-xs py-3 px-10 rounded duration-500 ease-in-out my-2;
 }
 .markdown a.button:hover{
   @apply bg-red-700;
