@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Mehmet Celik { software engineer / backend developer }',
-    description: 'Portfolio of software engineer / backend developer Mehmet Celik.',
+    description: 'Portfolio of Mehmet Celik, software engineer and backend developer.',
     author: '@meceware',
     siteUrl: 'https://www.meceware.com',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -55,7 +56,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-eslint',
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-no-sourcemaps',
     'gatsby-plugin-catch-links',
     {
