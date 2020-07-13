@@ -246,6 +246,7 @@ When an option is selected, **Section Navigation Options** will be activated.
 * *Tooltip Background Color*: You can choose the background of the tooltips.
 * *Tooltip Text Color*: You can choose the text color of the tooltips.
 * *Show Active Tooltip*: When this option is enabled, the tooltip for the active section will be visible next to the navigation bullet.
+* *Clickable Tooltip*: When this option is enabled, the tooltip clicks also go to the corresponding section.
 * *Bigger Navigation*: You can enable this option to see bigger navigation bullets.
 
 ### Slide Navigation
@@ -555,7 +556,6 @@ By default, empty page template is enabled. To disable it, please take a look at
 #### I cannot scroll to my footer!
 
 If scrollbars are disabled, only the content inside the sections are visible. To be able to show the footer, it needs to be moved inside a section. You can use the [Show Theme Footer](#show-theme-footer "Show Theme Footer") customization.
-
 
 #### Sections are getting cut off! I cannot see the rest of my content!
 
