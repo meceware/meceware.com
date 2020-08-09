@@ -37,7 +37,7 @@ const Header = ( props ) => {
                 <div className = 'flex-no-grow flex-shrink-0 relative py-1 px-1 leading-normal flex items-center'>
                   { props.icons && (
                     <Icons color = 'text-gray-600 hover:text-gray-700' icons = { [
-                      { link: '/docs/', icon: faFileAlt, className: 'hidden sm:inline-block' },
+                      { link: '/docs/', icon: faFileAlt },
                       { link: '/contact/', icon: faEnvelope },
                       { link: 'https://github.com/meceware', icon: faGithub, target: '_blank' },
                     ] } />

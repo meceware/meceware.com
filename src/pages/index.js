@@ -96,6 +96,14 @@ export default () => {
                 target: '_blank',
                 out: true,
               },
+              {
+                className: 'bg-green-500 hover:bg-green-600',
+                desc: 'JavaScript Library',
+                title: 'heMenu',
+                link: 'https://github.com/meceware/heMenu/',
+                target: '_blank',
+                out: true,
+              },
             ]
           } />
         </Section>

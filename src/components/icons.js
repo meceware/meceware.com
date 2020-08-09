@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default ( props ) => {
   const iconColors = props.color || 'text-gray-600 hover:text-gray-700';
-  const iconsSize = props.icons.length;
   return (
     <div className = { props.className || 'block relative my-2 text-center text-xl' } >
       { props.icons.map( ( icon, index ) => {
@@ -16,10 +15,7 @@ export default ( props ) => {
             id = { icon.id }
             className = {
               classNames(
-                'inline-block transition-colors duration-500 ease-in-out w-6 sm:mx-2',
-                { 'mx-2': index !== 0 && index !== iconsSize - 1 },
-                { 'ml-2': index === 0 },
-                { 'mr-2': index === iconsSize - 1 },
+                'inline-block transition-colors duration-500 ease-in-out w-6 mx-1 sm:mx-2',
                 icon.className,
                 iconColors,
               )

@@ -69,6 +69,7 @@ export default ( props ) => {
                   </ul>
                 </li>
                 <li><Link to = 'https://meceware.github.io/iwideo/' out = { true } target = '_blank'>iWideo</Link></li>
+                <li><Link to = 'https://github.com/meceware/heMenu/' out = { true } target = '_blank'>heMenu</Link></li>
                 <li><Link to = '/contact/' activeClassName = 'selected'>Contact</Link></li>
               </ul>
             </nav>
