@@ -560,3 +560,7 @@ If scrollbars are disabled, only the content inside the sections are visible. To
 #### Sections are getting cut off! I cannot see the rest of my content!
 
 When the scrollbars are disabled and your content is greater than the screen height, some of your content might be left outside of the viewport. To display these, you can enable [Scroll Overflow](#scroll-overflow "Scroll Overflow") option. This will create an in-section scrollbar.
+
+#### How do I remove anchors from URL?
+
+If you want to remove the anchors (your-domaion.com/`#anchor`), you can enable [Lock Anchors](#lock-anchors "Lock Anchors") or [Disable Anchors](#disable-anchors "Disable Anchors") option. Enabling one of these two options will remove the anchor part from the URL.

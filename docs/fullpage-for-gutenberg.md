@@ -622,8 +622,12 @@ If scrollbars are disabled, only the content inside the sections are visible. To
 
 When the scrollbars are disabled and your content is greater than the screen height, some of your content might be left outside of the viewport. To display these, you can enable [Scroll Overflow](#scroll-overflow "Scroll Overflow") option. This will create an in-section scrollbar.
 
-### The Block Generates Error / FullPage Block Contains Unexpected or Invalid Content
+#### The Block Generates Error / FullPage Block Contains Unexpected or Invalid Content
 
 Sometimes with the update of Gutenberg, WordPress or other third party plugins, FullPage block might generate an error. If you see `This block contains unexpected or invalid content.` instead of the FullPage block, please first take a database backup, just in case, and use `Attempt Block Recovery` button. Do NOT use `Convert to Classic Block` option.
 
 ![License Settings](assets/fullpage-for-gutenberg/attemp-block-recovery.jpg "Attempt Block Recovery for FullPage for Gutenberg")
+
+#### How do I remove anchors from URL?
+
+If you want to remove the anchors (your-domaion.com/`#anchor`), you can enable [Lock Anchors](#lock-anchors "Lock Anchors") or [Disable Anchors](#disable-anchors "Disable Anchors") option. Enabling one of these two options will remove the anchor part from the URL.
