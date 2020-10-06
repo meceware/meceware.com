@@ -123,16 +123,7 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-plugin-postcss',
-      options: {
-        postCssPlugins: [
-          require( 'tailwindcss' )( './tailwind.config.js' ),
-          require( 'autoprefixer' ),
-          require( 'cssnano' ),
-        ],
-      },
-    },
+    'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {
