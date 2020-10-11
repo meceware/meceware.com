@@ -13,7 +13,7 @@ Create beautiful fullscreen scrolling web sites with **WordPress** and **Gutenbe
 
 [![FullPage for Gutenberg](assets/fullpage-for-gutenberg/banner-compressed.png "FullPage for Gutenberg")](https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/)
 
-<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-gutenberg/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForGutenberg">BUY</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="#faq">FAQ</a></p>
+<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-gutenberg/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForGutenberg">BUY</a><span style="padding-left:10px;"></span><a class="button" href="#faq">FAQ</a></p>
 
 This plugin simplifies creation of fullscreen scrolling websites with WordPress and saves you big time.
 

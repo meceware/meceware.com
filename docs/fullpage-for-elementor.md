@@ -13,7 +13,7 @@ Create beautiful fullscreen scrolling web sites with **WordPress** and **Element
 
 [![FullPage for Elementor](assets/fullpage-for-elementor/banner-compressed.png "FullPage for Elementor")](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/)
 
-<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-elementor/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForElementor">BUY</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="#faq">FAQ</a></p>
+<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-elementor/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForElementor">BUY</a><span style="padding-left:10px;"></span><a class="button" href="#faq">FAQ</a></p>
 
 This plugin simplifies creation of fullscreen scrolling websites with WordPress and saves you big time.
 
@@ -124,6 +124,24 @@ After entering the license, press on *Save Changes* button. This will activate t
 You can use the plugin without any limitations once your license is activated.
 
 You can click on *Deactivate* button to deactivate your license on the current domain and move your license to another domain.
+
+## Sample Elementor Template
+
+You can [download the Elementor template file](/template/fullpage-for-elementor-template.json) and load it via Elementor Template Library.
+
+To load the template:
+* Create a new post/page with Elementor.
+* Click the Add Template From Library icon.
+
+![Add Template](assets/fullpage-for-elementor/template.jpg "Add Template")
+
+* Click the Import Templates button.
+
+![Import Template](assets/fullpage-for-elementor/template-import.jpg "Import Template")
+
+* Drag and drop the `fullpage-for-elementor-template.json` file to import it.
+
+* Insert the template to the page and save the page.
 
 ## Enable FullPage
 
