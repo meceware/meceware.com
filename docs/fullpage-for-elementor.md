@@ -115,13 +115,15 @@ This plugin simplifies creation of fullscreen scrolling websites with WordPress 
 
 The license key you obtained by buying the plugin can be entered at WordPress admin panel `FullPage for Elementor` settings under Elementor menu.
 
+![License Settings](assets/fullpage-for-elementor/settings.jpg "License Settings")
+
 After entering the license, press on *Save Changes* button. This will activate the license.
 
-![License Settings](assets/fullpage-for-elementor/settings.jpg "License Settings")
+![Activated License Settings](assets/fullpage-for-elementor/settings-activated.jpg "Activated License Settings")
 
 You can use the plugin without any limitations once your license is activated.
 
-You can click on *Deactivate* button to deactivate your license to move your license to another web site.
+You can click on *Deactivate* button to deactivate your license on the current domain and move your license to another domain.
 
 ## Enable FullPage
 
@@ -179,13 +181,19 @@ This would be an example of a link with an anchor:
 `http://yoursite.com/#secondPage`
 (which is the URL you will see once you access to that section manually) Notice the last part of the URL ends in `#secondPage`, if FullPage Anchor option for that section is set to `secondPage`.
 
+*Note: FullPage Anchor should NOT be the same with any anchor ID on the page.*
+
 #### Navigation Tooltip
 
 This option defines the tooltips to show for the navigation circles in case they are being used.
 
 #### Disable Scroll Overflow
 
-This option is used to prevent fullpage.js from creating the scrollbar in certain sections or slides. When Scroll Overflow is enabled but the scrollbars in this section is not needed, enable this option.
+This option is used to prevent `fullpage.js` from creating the scrollbar in certain sections or slides. When Scroll Overflow is enabled but the scrollbars in this section is not needed, enable this option.
+
+#### Full Height Columns
+
+This option makes the column height same with section height.
 
 #### Navigation Colors
 
@@ -216,6 +224,8 @@ Each *Inner Section* widget inside the Elementor Sections are set as FullPage Sl
 The anchor at the end of the URL `#secondPage/2` defines the section and slide of destination respectively. In the previous URL, the section of destination will be the one defined with the anchor secondPage and the slide will be the 2nd slide, as we are using the index 2 for it. (the fist slide of a section has index 0, as technically it is a section).
 
 If a custom anchor is needed for a slide instead of its index, you can enter the new slide anchor to *Slide Anchor* option.
+
+For Full Height Columns, see [this section](#full-height-columns).
 
 For Slide Navigation Colors, see [this section](#navigation-colors).
 
@@ -480,9 +490,26 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 
 ### Force Fixed Theme Header
 
-This option tries to make the header fixed at the top, and arranges the section content accordingly. **Theme Header Selector** option should be given as a JavaScript selector. **Theme Header Padding** option sets the section header paddings with respect to header height.
+This option tries to make the header fixed at the top, and arranges the section content accordingly.
+**Theme Header Selector** option should be given as a JavaScript selector.
+**Is Header a Section** option should be enabled if your header element is inside a section
+**Theme Header Padding** option sets the section header paddings with respect to header height.
 
 If you are designing your theme header using Elementor sections, or added your header inside a section, enable **Is Header a Section?** option.
+
+### Show Theme Footer
+
+This option moves the footer inside the last auto-height section.
+**Theme Footer Selector** option should be given as a JavaScript selector.
+
+### Enable Elementor Animations
+
+This option enables Elementor animations if scrollbars are disabled.
+**Reset Elementor Animations** option can be enabled if animation reset is wanted when section/slide change.
+
+### Form Buttons
+
+This option applies a fix if there is a form inside the sections.
 
 ## Advanced
 
@@ -564,3 +591,7 @@ When the scrollbars are disabled and your content is greater than the screen hei
 #### How do I remove anchors from URL?
 
 If you want to remove the anchors (your-domaion.com/`#anchor`), you can enable [Lock Anchors](#lock-anchors "Lock Anchors") or [Disable Anchors](#disable-anchors "Disable Anchors") option. Enabling one of these two options will remove the anchor part from the URL.
+
+### Why my scroll based animations or events don't work?
+
+Some of the WordPress plugins or Javascript libraries that depend on scrolling mechanism such as sticky menus, animations etc. might not work if scroll bar is disabled using the plugin. Please enable the [Scroll Bar](#scroll-bar "Scroll Bar") option to enable scroll based animations.
