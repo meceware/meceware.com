@@ -491,35 +491,55 @@ This callback is fired right after initializing fullpage.js.
 
 ## Extensions
 
-Extensions section includes FullPage Extension options. The extensions can be purchased on <a href="https://alvarotrigo.com/fullPage/extensions/"
-target="_blank">FullPage Extensions</a> page.
+Extensions section includes FullPage Extension options. The extensions can be purchased on <a href="https://alvarotrigo.com/fullPage/extensions/" target="_blank">FullPage Extensions</a> page.
 
-*Note: These options are only available if at least one extension is purchased. The plugin is not bundled with these extensions.*
+***Note: These options are only available if at least one extension is purchased. The plugin is not bundled with these extensions.***
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UwcazIw--n0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
+### Activating The Extension
 
-To add an extension, please follow the steps below:
-- Extract the extensions plugin zip (`mcw-fullpage-gutenberg-extensions.zip`) file on your computer.
-- Copy your extension JavaScript file (`*.js`) to your extension folder inside `{the plugin folder you extracted}/extensions`.
-- Compress the file with `zip` compression.
-- Go to your admin panel of WordPress installation site.
-- Go to `Plugins` page.
-- Deactivate and delete the `FullPage for Gutenberg - Extensions` plugin if installed.
-- Click on `Add New` button to upload the zip file.
-- Click on `Upload Plugin` button.
-- Select your zip file and click `Install Now` button.
-- Activate the `FullPage for Gutenberg - Extensions` plugin.
+When you purchase an extension, you will need to activate the extension for a domain. **Please note that, there is no deactivation for extensions**.
 
-*Note: You can install multiple extensions using the same steps.*
+You can use the extension without activating it on a domain (a staging domain for example). When a non-activated extension is used on a domain, a red box will appear but it will be removed upon activation.
 
-*When an extension is added, the extension parameters can be changed here.*
+Please follow the steps below, when you want to activate the extension on the production domain.
 
-![FullPage for Gutenberg Block Extensions Options](assets/fullpage-for-gutenberg/extensions.jpg "Extensions Options")
+- Go to the <a href="https://alvarotrigo.com/fullPage/extensions/activationKey.html">activation web site</a>.
 
-### Enable FullPage Extensions
+- Choose your extension and enter your *License Key* you've received via email upon the purchase.
 
-FullPage Extensions script is loaded instead of fullpage script when enabled.
+### Installing The Extension
+
+- If you've installed the old extension plugin, please deactivate the plugin and delete it.
+
+![Remove Old Extensions Plugin](assets/fullpage-for-gutenberg/extension-old-remove.jpg "Remove Old Extensions Plugin")
+
+- Go to *FullPage for Gutenberg* settings page. You will see extension list.
+
+![Extension List](assets/fullpage-for-gutenberg/extension-settings.jpg "Extension List")
+
+- Enter your *License Key* you've received via email upon the purchase for the corresponding extension.
+
+- Click on *Install Extension* button for the corresponding extension.
+
+![Installing Extension](assets/fullpage-for-gutenberg/extension-installing.jpg "Installing Extension")
+
+- After a successfull installation, the page will refresh and the extension plugin should be installed.
+
+![Extension Installed](assets/fullpage-for-gutenberg/extension-installed.jpg "Extension Installed")
+
+### Using The Extension
+
+After the extension is installed,
+
+- Enable `Enable FullPage Extensions` option under Extensions tab of FullPage options.
+
+- You should see the extension. Enable the corresponding extension and adjust its option(s) as suitable.
+
+![Extension Options](assets/fullpage-for-gutenberg/extension-options.jpg "Extension Options")
+
+### Removing the Extension
+
+To remove the extension, go to your Plugins page and Deactivate/Delete the extension plugin.
 
 ## Customizations
 

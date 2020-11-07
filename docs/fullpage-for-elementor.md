@@ -463,7 +463,7 @@ This callback is fired right after initializing fullpage.js.
 
 Extensions section includes FullPage Extension options. The extensions can be purchased on <a href="https://alvarotrigo.com/fullPage/extensions/" target="_blank">FullPage Extensions</a> page.
 
-*Note: These options are only available if at least one extension is purchased. The plugin is not bundled with these extensions.*
+***Note: These options are only available if at least one extension is purchased. The plugin is not bundled with these extensions.***
 
 ### Activating The Extension
 
