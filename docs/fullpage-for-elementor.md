@@ -631,6 +631,6 @@ When the scrollbars are disabled and your content is greater than the screen hei
 
 If you want to remove the anchors (your-domaion.com/`#anchor`), you can enable [Lock Anchors](#lock-anchors "Lock Anchors") or [Disable Anchors](#disable-anchors "Disable Anchors") option. Enabling one of these two options will remove the anchor part from the URL.
 
-### Why my scroll based animations or events don't work?
+#### Why my scroll based animations or events don't work?
 
 Some of the WordPress plugins or Javascript libraries that depend on scrolling mechanism such as sticky menus, animations etc. might not work if scroll bar is disabled using the plugin. Please enable the [Scroll Bar](#scroll-bar "Scroll Bar") option to enable scroll based animations.
