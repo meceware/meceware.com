@@ -138,7 +138,9 @@ After entering the license, press on *Activate* button. This will activate the l
 
 You can use the plugin without any limitations once your license is activated.
 
-You can click on *Deactivate* button to deactivate your license to move your license to another web site.
+### License Deactivation
+
+If you want to move your license to another domain, you will need to deactivate your license if activated. You can click on the *Deactivate* button to deactivate your license.
 
 ## Sections
 

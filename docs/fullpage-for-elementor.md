@@ -123,7 +123,11 @@ After entering the license, press on *Save Changes* button. This will activate t
 
 You can use the plugin without any limitations once your license is activated.
 
-You can click on *Deactivate* button to deactivate your license on the current domain and move your license to another domain.
+### License Deactivation
+
+If you want to move your license to another domain, you will need to deactivate your license if activated. You can click on the *Deactivate* button to deactivate your license.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dZ4xvky-VfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Sample Elementor Template
 
