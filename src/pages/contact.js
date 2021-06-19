@@ -113,12 +113,7 @@ export default class Contact extends React.Component {
         this.setState( {
           messageSending: false,
         } );
-        if ( ! res.body || ! err ) {
-          this.setState( {
-            messageSent: false,
-            messageError: 'Sometimes, something happens and nothing happens!',
-          } );
-        } else if ( res.body && res.body.result === 'error' ) {
+        if ( res.body && res.body.result === 'error' ) {
           this.setState( {
             messageSent: false,
             messageError: res.body.message,
