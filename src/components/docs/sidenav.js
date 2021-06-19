@@ -32,8 +32,8 @@ const DocsSideNav = ( props ) => {
                     return (
                       <li
                         className = { classNames(
-                          'text-sm leading-8 hover:text-blue-900',
-                          { 'text-blue-600': props.active === doc.id },
+                          'text-sm leading-8 hover:text-red-600',
+                          { 'font-bold text-red-600': props.active === doc.id },
                           { 'text-gray-800': props.active !== doc.id },
                         ) }
                         key = { doc.id }

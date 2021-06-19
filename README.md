@@ -11,10 +11,6 @@ Developed with [Gatsby](https://www.gatsbyjs.org/).
 
 ## TODO
 
-- Install `gatsby-plugin-offline` in the end.
-
-- Add dark mode.
-
 - Scrollspy for docs pages.
 
 - Gif autoplay for markdown. `gatsby-remark-attr` and gifffer can be used.

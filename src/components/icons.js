@@ -6,7 +6,7 @@ import Link from './link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default ( props ) => {
-  const iconColors = props.color || 'text-gray-600 hover:text-gray-700';
+  const iconColors = props.color || 'text-gray-600 hover:text-gray-800';
   return (
     <div className = { props.className || 'block relative my-2 text-center text-xl' } >
       { props.icons.map( ( icon, index ) => {

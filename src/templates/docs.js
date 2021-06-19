@@ -28,7 +28,7 @@ export default class DocsTemplate extends Component {
         <Layout fixed = { true } mainClassName = 'docs-main bg-white' >
           <Section>
             <div className = 'block'>
-              <div className = 'doc-wrapper py-4 block relative lg:p-4 md:flex md:flex-row md:flex-no-wrap'>
+              <div className = 'doc-wrapper py-4 block relative lg:p-4 md:flex md:flex-row md:flex-nowrap'>
                 <DocsSideNav active = { this.props.pageContext.id } />
                 <div className = 'docs-container flex-1 md:mx-4 xl:mx-8 max-w-full'>
                   <div className = 'block relative'>

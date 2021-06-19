@@ -53,6 +53,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-eslint',
@@ -99,7 +100,7 @@ module.exports = {
           {
             name: 'wp-plugins',
             url: '/sitemap_wp.xml',
-          }
+          },
         ],
       },
     },
@@ -115,22 +116,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: [ 'Montserrat:700:latin' ],
-        },
-      },
-    },
     'gatsby-plugin-postcss',
-    {
-      resolve: 'gatsby-plugin-purgecss',
-      options: {
-        tailwind: true,
-        purgeOnly: [ 'src/css/style.css' ],
-      },
-    },
     'gatsby-plugin-meta-redirect', // make sure this is always the last one
   ],
 };

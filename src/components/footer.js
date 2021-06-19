@@ -10,7 +10,7 @@ export default ( props ) => {
     <Fragment>
       <footer className = 'relative flex flex-initial border border-r-0 border-b-0 border-l-0 border-gray-400 border-solid'>
         <div className = 'w-full py-4'>
-          <p className = 'block relative text-gray-600 text-center text-sm cursor-default'>© { new Date().getFullYear() } — All Rights Reserved <br /><span className = 'font-bold'><Link to = '/'>meceware.com</Link></span></p>
+          <p className = 'block relative text-gray-500 text-center text-sm cursor-default'>© { new Date().getFullYear() } — All Rights Reserved <br /><span className = 'font-bold'><Link to = '/'>meceware.com</Link></span></p>
         </div>
       </footer>
       <div id = 'menu-wrapper' className = 'hemenu'>

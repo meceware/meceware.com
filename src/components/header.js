@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import classNames from 'classnames';
+import { StaticImage } from 'gatsby-plugin-image';
 
 /* Font awesome */
 import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
@@ -8,9 +9,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Icons from './icons';
 import Link from './link';
 import NavMenu from './menu';
-
-/* Fav icon */
-import McwLogo from '../images/mcw_fav.png';
 
 const Header = ( props ) => {
   return (
@@ -25,9 +23,15 @@ const Header = ( props ) => {
             <div className = 'flex flex-shrink-0 items-stretch h-12 my-1'>
               <div className = 'flex-no-grow flex-shrink-0 relative py-1 px-0 sm:px-2 leading-normal flex items-center'>
                 <Link to = '/' className = 'group flex items-center'>
-                  <img alt = 'meceware.com Logo' src = { McwLogo } className = 'inline-block select-none w-8 h-auto mx-auto opacity-75 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110' />
+                  <StaticImage
+                    alt = 'meceware.com Logo'
+                    src = '../images/mcw_fav.png'
+                    placeholder = 'blurred'
+                    layout = 'fullWidth'
+                    className = 'inline-block select-none w-8 h-auto mx-auto opacity-75 transition duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110'
+                  />
                   <div className = 'inline-block relative py-1 px-2 leading-normal text-lg text-gray-700 group-hover:text-gray-900 transition duration-500 ease-in-out transform'>
-                    <span className = 'font-bold font-title'>meceware</span><span className = 'text-sm text-gray-600 group-hover:text-gray-700'>.com</span>
+                    <span className = 'font-bold'>meceware</span><span className = 'text-sm text-gray-600 group-hover:text-gray-700'>.com</span>
                   </div>
                 </Link>
               </div>
@@ -36,7 +40,7 @@ const Header = ( props ) => {
               <div className = 'flex items-stretch justify-end ml-auto'>
                 <div className = 'flex-no-grow flex-shrink-0 relative py-1 px-1 leading-normal flex items-center'>
                   { props.icons && (
-                    <Icons color = 'text-gray-600 hover:text-gray-700' icons = { [
+                    <Icons icons = { [
                       { link: '/docs/', icon: faFileAlt },
                       { link: '/contact/', icon: faEnvelope },
                       { link: 'https://github.com/meceware', icon: faGithub, target: '_blank' },

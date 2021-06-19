@@ -575,6 +575,18 @@ This option tries to make the header fixed at the top, and arranges the section 
 
 This option tries to move the specified site footer as an auto-height section at the end. **Theme Footer Selector** option should be given as a JavaScript selector.
 
+### Form Buttons
+
+This option applies a fix for the forms inside sections when Scroll Overflow option is enabled.
+
+### Hide Content Before FullPage
+
+When this option is enabled, an empty content will be shown before FullPage is loaded. The content is shown after FullPage is loaded and enabled.
+
+### Enable Flex Mode
+
+When this option is enabled, modern Flex mode is used at the output.
+
 ### Advanced Parameters
 
 ![FullPage for Gutenberg Block Advanced Parameters](assets/fullpage-for-gutenberg/customizations-advanced.jpg "Advanced Parameters")

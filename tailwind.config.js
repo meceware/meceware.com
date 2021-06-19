@@ -1,32 +1,30 @@
 module.exports = {
+  purge: [ './src/**/*.{js,jsx}' ],
+  darkMode: false,
   theme: {
-    fontFamily: {
-      title: [ '"Montserrat"', 'sans-serif' ],
-      sans: [
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-      ],
-      serif: [ 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif' ],
-      mono: [ 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace' ],
+    extend: {
+      colors: {
+        teal: {
+          100: '#e6fffa',
+          200: '#b2f5ea',
+          300: '#81e6d9',
+          400: '#4fd1c5',
+          500: '#38b2ac',
+          600: '#319795',
+          700: '#2c7a7b',
+          800: '#285e61',
+          900: '#234e52',
+        },
+      },
+      fontFamily: {
+        mono: [ '"Courier New"', '"Lucida Console"', 'monospace' ],
+      },
     },
   },
   variants: {
     opacity: [ 'responsive', 'hover', 'focus', 'active', 'group-hover' ],
     scale: [ 'responsive', 'hover', 'focus', 'active', 'group-hover' ],
     textColor: [ 'responsive', 'hover', 'focus', 'active', 'group-hover' ],
-
   },
   plugins: [],
-  purge: false,
 };

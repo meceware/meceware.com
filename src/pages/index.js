@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 /* Font awesome */
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -11,10 +12,7 @@ import Section from '../components/section';
 import Icons from '../components/icons';
 import Plugins from '../components/plugins';
 
-/* Fav icon */
-import McwLogo from '../images/mcw_fav.png';
-
-export default () => {
+const PageIndex = () => {
   return (
     <Fragment>
       <SEO />
@@ -22,10 +20,16 @@ export default () => {
         <Section>
           <div className = 'relative mt-2 mb-1 text-center'>
             <div className = 'block'>
-              <img alt = 'meceware.com Logo' src = { McwLogo } className = 'select-none w-12 h-auto mx-auto opacity-75 transition duration-500 ease-in-out transform hover:opacity-100 hover:scale-110' />
+              <StaticImage
+                alt = 'meceware.com Logo'
+                src = '../images/mcw_fav.png'
+                placeholder = 'blurred'
+                layout = 'fullWidth'
+                className = 'select-none w-12 h-auto mx-auto opacity-75 transition duration-500 ease-in-out transform hover:opacity-100 hover:scale-110'
+              />
             </div>
             <div className = 'block'>
-              <h1 className = 'font-title font-bold text-4xl text-gray-700 cursor-default select-none'>mehmet celik</h1>
+              <h1 className = 'font-bold text-4xl text-gray-700 cursor-default select-none'>mehmet celik</h1>
             </div>
             <div className = 'block'>
               <div className = 'flex items-center justify-center'>
@@ -49,7 +53,7 @@ export default () => {
           <Plugins plugins = {
             [
               {
-                className: 'bg-orange-500 hover:bg-orange-600',
+                className: 'bg-yellow-500 hover:bg-yellow-600',
                 desc: 'WordPress Plugin',
                 title: 'FullPage for Elementor',
                 link: '/fullpage-for-elementor/',
@@ -111,3 +115,5 @@ export default () => {
     </Fragment>
   );
 };
+
+export default PageIndex;
