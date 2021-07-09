@@ -49,7 +49,7 @@ body, html {
 }
 
 .markdown p {
-  @apply mb-4;
+  @apply mb-2;
 }
 
 .markdown > * + * {

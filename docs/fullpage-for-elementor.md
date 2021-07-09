@@ -163,6 +163,8 @@ To load the template:
 
 Each Elementor Section widget on the page is fullpage section.
 
+![How To Add Sections](assets/fullpage-for-elementor/add-sections.gif "How To Add Sections")
+
 ### Add Sections
 
 Drag and drop any Elementor widget inside the widget drop area, or click on the plus sign.
@@ -188,6 +190,8 @@ This option enables the specified section as horizontal slides container.
 #### Section Behaviour
 
 This option defines the behaviour of the section.
+
+![Section Behaviour](assets/fullpage-for-elementor/section-behavior.jpg "Section Behaviour")
 
 When *Full Height* is selected, the height of the sections will be fullscreen.
 
@@ -226,6 +230,8 @@ If you want to change the (left/right) navigation bullet colors for the active s
 Slides are the horizontal FullPage elements inside sections.
 
 Each *Inner Section* widget inside the Elementor Sections are set as FullPage Slides if [*Has Horizontal Slides*](#has-horizontal-slides) option of the section is enabled.
+
+![How To Add Slides](assets/fullpage-for-elementor/add-slides.gif "How To Add Slides")
 
 *Note: When a section is enabled as a Slide, only Inner Section widgets can be placed inside the section. No other widgets should be placed inside the section other than Inner Section.*
 
@@ -272,9 +278,11 @@ When an option is selected, **Section Navigation Options** will be activated.
 ![FullPage for Elementor Section Navigation Options](assets/fullpage-for-elementor/navigation-section-options.jpg "Section Navigation Options")
 
 * *Section Navigation Style*: You can select the navigation bullet style with this option.
+* *Show*: You can show or hide the navigation bullets with this option responsively.
 * *Main Color*: You can choose the primary color of the bullets.
 * *Hover Color*: You can choose the primary color of the bullets when mouse is on the bullets.
 * *Active Color*: You can choose the primary color when the section bullet is active.
+* *Space*: You can specify the distance from left/right of navigation bullets using this option.
 * *Tooltip Background Color*: You can choose the background of the tooltips.
 * *Tooltip Text Color*: You can choose the text color of the tooltips.
 * *Show Active Tooltip*: When this option is enabled, the tooltip for the active section will be visible next to the navigation bullet.
@@ -296,14 +304,21 @@ When an option is selected, **Slide Navigation Settings** will be activated.
 ![FullPage for Elementor Slide Navigation Options](assets/fullpage-for-elementor/navigation-slide-options.jpg "Slide Navigation Options")
 
 * *Slide Navigation Style*: You can select the navigation bullet style with this option.
+* *Show*: You can show or hide the slide navigation bullets with this option responsively.
 * *Main Color*: You can choose the primary color of the bullets.
 * *Hover Color*: You can choose the primary color of the bullets when mouse is on the bullets.
 * *Active Color*: You can choose the primary color when the slide bullet is active.
+* *Space*: You can specify the distance from top/bottom of slide navigation bullets using this option.
 * *Bigger Slide Navigation*: You can enable this option to see bigger navigation bullets.
 
 ### Control Arrows
 
 This option determines whether to use control arrows for the slides to move right or left.
+
+![Control Arrows Options](assets/fullpage-for-elementor/control-arrows-options.jpg "Control Arrows Options")
+
+* *Control Arrows Style*: The style of the control arrows.
+* *Control Arrows Color*: The color of the control arrows.
 
 ### Lock Anchors
 
@@ -346,6 +361,8 @@ This option determines whether to use scrollbar for the site or not. In case of 
 ### Scroll Overflow
 
 This option defines whether or not to create a scroll for the section/slide in case its content is bigger than the height of it. When set to true, your content will be wrapped by the plugin.
+
+![Scroll Overflow Options](assets/fullpage-for-elementor/scroll-overflow-options.jpg "Scroll Overflow Options")
 
 * **Show Scroll Overflow Scrollbars**
 
@@ -473,7 +490,9 @@ Extensions section includes FullPage Extension options. The extensions can be pu
 
 When you purchase an extension, you will need to activate the extension for a domain. **Please note that, there is no deactivation for extensions**.
 
-You can use the extension without activating it on a domain (a staging domain for example). When a non-activated extension is used on a domain, a red box will appear but it will be removed upon activation.
+You can use the extension without activating it on a domain (for example, a staging/development domain). When a non-activated extension is used on a domain, a red box will appear but it will be removed upon activation.
+
+If you are on a staging/development domain, please ignore that message and do not activate for the development domain. **The extension domain cannot be changed (no deactivation) and once activated, refund for the extension would not be possible**. Once moved to the production domain, you can activate it and the red box will be disappeared automatically.
 
 Please follow the steps below, when you want to activate the extension on the production domain.
 
@@ -482,10 +501,6 @@ Please follow the steps below, when you want to activate the extension on the pr
 - Choose your extension and enter your *License Key* you've received via email upon the purchase.
 
 ### Installing The Extension
-
-- If you've installed the old extension plugin, please deactivate the plugin and delete it.
-
-![Remove Old Extensions Plugin](assets/fullpage-for-elementor/extension-old-remove.jpg "Remove Old Extensions Plugin")
 
 - Go to *FullPage for Elementor* settings page. You will see extension list.
 
@@ -533,19 +548,30 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 
 ### Force Fixed Theme Header
 
+![Force Fixed Theme Header](assets/fullpage-for-elementor/force-fixed-theme-header.jpg "Force Fixed Theme Header")
+
 This option tries to make the header fixed at the top, and arranges the section content accordingly.
+
 **Theme Header Selector** option should be given as a JavaScript selector.
-**Is Header a Section** option should be enabled if your header element is inside a section
+
+**Is Header a Section** option should be enabled if your header element is inside a section.
+
 **Theme Header Padding** option sets the section header paddings with respect to header height.
 
 If you are designing your theme header using Elementor sections, or added your header inside a section, enable **Is Header a Section?** option.
 
+If you designed your theme header using Elementor, the *Theme Header Selector* option should be set to `.elementor-location-header`.
+
 ### Show Theme Footer
+
+![Show Theme Footer](assets/fullpage-for-elementor/show-theme-footer.jpg "Show Theme Footer")
 
 This option moves the footer inside the last auto-height section.
 **Theme Footer Selector** option should be given as a JavaScript selector.
 
 ### Enable Elementor Animations
+
+![Enable Elementor Animations](assets/fullpage-for-elementor/enable-elementor-animations.jpg "Enable Elementor Animations")
 
 This option enables Elementor animations if scrollbars are disabled.
 **Reset Elementor Animations** option can be enabled if animation reset is wanted when section/slide change.
@@ -553,6 +579,10 @@ This option enables Elementor animations if scrollbars are disabled.
 ### Form Buttons
 
 This option applies a fix if there is a form inside the sections.
+
+### Hide Content Before FullPage
+
+This option hides the content before FullPage loads. The content is shown as soon as FullPage is ready.
 
 ## Advanced
 
@@ -613,6 +643,10 @@ FullPage extensions can be purchased separately and is not available with the pl
 
 If you have purchased one or more extensions, please take a look at the [Extensions](#extensions "Extensions") section for the tutorial video that shows how to install them.
 
+#### I see a red box about extension not activated!
+
+Please find more information at [Extensions](#extensions "Extensions") part of the documentation. As specified there, you could see the red box when the extension is not activated. However, if you are on a development domain, **please ignore that message and do not activate for the development domain**. **The extension domain cannot be changed and once activated, refund for the extension would not be possible**. Once moved to the production domain, you can activate it and the red box will be disappeared automatically.
+
 #### How can I show a normal web site on mobile and fullpage scrolling web site on desktop?
 
 You can activate Responsive Mode. To activate Responsive Mode, please set [Responsive Width](#responsive-width "Responsive Width") option to `767` (or any screen width you want). That's it! For the screens that has width less than `767px`, a normal scrolling web site will be shown.
@@ -630,6 +664,10 @@ If scrollbars are disabled, only the content inside the sections are visible. To
 #### Sections are getting cut off! I cannot see the rest of my content!
 
 When the scrollbars are disabled and your content is greater than the screen height, some of your content might be left outside of the viewport. To display these, you can enable [Scroll Overflow](#scroll-overflow "Scroll Overflow") option. This will create an in-section scrollbar.
+
+## I can't hide my sections responsively!
+
+You can't hide sections and slides using responsive options. Even if they seem hidden, they are actually there. However, you can hide the inner contents of sections and slides, including the columns.
 
 #### How do I remove anchors from URL?
 
