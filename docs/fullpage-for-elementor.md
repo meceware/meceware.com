@@ -672,7 +672,7 @@ If scrollbars are disabled, only the content inside the sections are visible. To
 
 When the scrollbars are disabled and your content is greater than the screen height, some of your content might be left outside of the viewport. To display these, you can enable [Scroll Overflow](#scroll-overflow "Scroll Overflow") option. This will create an in-section scrollbar.
 
-## I can't hide my sections responsively!
+#### I can't hide my sections responsively!
 
 You can't hide sections and slides using responsive options. Even if they seem hidden, they are actually there. However, you can hide the inner contents of sections and slides, including the columns.
 
