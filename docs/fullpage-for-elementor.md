@@ -2,7 +2,7 @@
 id: fullpage-for-elementor
 title: FullPage for Elementor
 description: Create beautiful fullscreen scrolling web sites with WordPress and Elementor, fast and simple.
-featuredImage: assets/fullpage-for-elementor/banner-compressed.png
+featuredImage: assets/fullpage-for-elementor/banner.png
 button: buy
 link: https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/
 group: Plugins
@@ -11,7 +11,7 @@ sort: 2
 
 Create beautiful fullscreen scrolling web sites with **WordPress** and **Elementor**, fast and simple.
 
-[![FullPage for Elementor](assets/fullpage-for-elementor/banner-compressed.png "FullPage for Elementor")](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/)
+[![FullPage for Elementor](assets/fullpage-for-elementor/banner.png "FullPage for Elementor")](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/)
 
 <p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-elementor/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForElementor">BUY</a><span style="padding-left:10px;"></span><a class="button" href="#faq">FAQ</a></p>
 
@@ -106,7 +106,7 @@ This plugin simplifies creation of fullscreen scrolling websites with WordPress 
 * Install Elementor plugin if not installed.
 * In your WordPress Admin Menu, go to **Plugins > Add New**.
 * Click on **Upload Plugin** button found on top left corner of page.
-* Click on **Browse** button. Select the `.zip` file of your plugin in your computer, and click **Install Now** button.
+* Click on **Browse** button. Select the `mcw-fullpage-elementor.zip` file of your plugin in your computer, and click **Install Now** button.
 * Active the plugin by clicking on **Activate Plugin** link to work with the plugin.
 
 ![How To Install FullPage for Elementor Plugin](assets/fullpage-for-elementor/install.gif "How To Install FullPage for Elementor Plugin")
@@ -117,7 +117,7 @@ The license key you obtained by buying the plugin can be entered at WordPress ad
 
 ![License Settings](assets/fullpage-for-elementor/settings.jpg "License Settings")
 
-After entering the license, press on *Save Changes* button. This will activate the license.
+After entering the license, press on `Activate` button. This will activate the license.
 
 ![Activated License Settings](assets/fullpage-for-elementor/settings-activated.jpg "Activated License Settings")
 
@@ -125,7 +125,7 @@ You can use the plugin without any limitations once your license is activated.
 
 ### License Deactivation
 
-If you want to move your license to another domain, you will need to deactivate your license if activated. You can click on the *Deactivate* button to deactivate your license.
+If you want to move your license to another domain, you will need to deactivate your license if activated. You can click on the `Deactivate` button to deactivate your license.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dZ4xvky-VfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -150,9 +150,9 @@ To load the template:
 ## Enable FullPage
 
 * Create a new post/page with Elementor.
-* Click on **Settings** button. You will see `FullPage` tab.
+* Click on `Settings` button. You will see `FullPage` tab.
 * Go to `FullPage` tab.
-* Toggle **Enable FullPage** option.
+* Toggle `Enable FullPage` option.
 * Wait for the page preview to refresh.
 
 *Note: Each content should be inside Elementor Section widgets. Only the contents inside the sections will be rendered and other content may break the script.*
@@ -193,11 +193,11 @@ This option defines the behaviour of the section.
 
 ![Section Behaviour](assets/fullpage-for-elementor/section-behavior.jpg "Section Behaviour")
 
-When *Full Height* is selected, the height of the sections will be fullscreen.
+When `Full Height` is selected, the height of the sections will be fullscreen.
 
-When *Auto Height* is selected, the height of the section will take the height defined by your section/slide content.
+When `Auto Height` is selected, the height of the section will take the height defined by your section/slide content.
 
-When *Responsive Auto Height* is selected, sections will be fullscreen until the responsive mode gets fired. Then they'll take the size required by their content, which could be bigger or smaller than the viewport.
+When `Responsive Auto Height` is selected, sections will be fullscreen until the responsive mode gets fired. Then they'll take the size required by their content, which could be bigger or smaller than the viewport.
 
 #### FullPage Anchor
 
@@ -229,7 +229,7 @@ If you want to change the (left/right) navigation bullet colors for the active s
 
 Slides are the horizontal FullPage elements inside sections.
 
-Each *Inner Section* widget inside the Elementor Sections are set as FullPage Slides if [*Has Horizontal Slides*](#has-horizontal-slides) option of the section is enabled.
+Each `Inner Section` widget inside the Elementor Sections are set as FullPage Slides if [*Has Horizontal Slides*](#has-horizontal-slides) option of the section is enabled.
 
 ![How To Add Slides](assets/fullpage-for-elementor/add-slides.gif "How To Add Slides")
 
@@ -238,20 +238,18 @@ Each *Inner Section* widget inside the Elementor Sections are set as FullPage Sl
 ### Add Slides
 
 * Enable [*Has Horizontal Slides*](#has-horizontal-slides) option of the section.
-* Add *Inner Section* widgets inside the section.
-* Add your content inside the *Inner Section* widgets.
+* Add `Inner Section` widgets inside the section.
+* Add your content inside the `Inner Section` widgets.
 
 ### Remove Slides
 
-* Remove the *Inner Section*.
+* Remove the `Inner Section`.
 
 ### Slide Options
 
 ![Slide Options](assets/fullpage-for-elementor/slide-options.jpg "Slide Options")
 
-The anchor at the end of the URL `#secondPage/2` defines the section and slide of destination respectively. In the previous URL, the section of destination will be the one defined with the anchor secondPage and the slide will be the 2nd slide, as we are using the index 2 for it. (the fist slide of a section has index 0, as technically it is a section).
-
-If a custom anchor is needed for a slide instead of its index, you can enter the new slide anchor to *Slide Anchor* option.
+If a custom anchor is needed for a slide instead of its index, you can enter the new slide anchor to `Slide Anchor` option. If set, the anchor of the slide will be `#section_anchor/slide_anchor`. If this option is left empty, the anchor of the slide will be `#section_anchor/2` where 2 is the slide number.
 
 For Full Height Columns, see [this section](#full-height-columns).
 
@@ -270,24 +268,27 @@ Section navigation includes the options of the navigation bar made up of small c
 ![FullPage for Elementor Section Navigation Options](assets/fullpage-for-elementor/navigation-section.jpg "Section Navigation Options")
 
 **Options**
-* *Left*: The navigation bullets for the section navigation will be shown at the left side of the page.
-* *Right*: The navigation bullets for the section navigation will be shown at the right side of the page.
+* `Left`: The navigation bullets for the section navigation will be shown at the left side of the page.
+* `Right`: The navigation bullets for the section navigation will be shown at the right side of the page.
 
-When an option is selected, **Section Navigation Options** will be activated.
+When an option is selected, `Section Navigation Options` will be activated.
 
 ![FullPage for Elementor Section Navigation Options](assets/fullpage-for-elementor/navigation-section-options.jpg "Section Navigation Options")
 
-* *Section Navigation Style*: You can select the navigation bullet style with this option.
-* *Show*: You can show or hide the navigation bullets with this option responsively.
-* *Main Color*: You can choose the primary color of the bullets.
-* *Hover Color*: You can choose the primary color of the bullets when mouse is on the bullets.
-* *Active Color*: You can choose the primary color when the section bullet is active.
-* *Space*: You can specify the distance from left/right of navigation bullets using this option.
-* *Tooltip Background Color*: You can choose the background of the tooltips.
-* *Tooltip Text Color*: You can choose the text color of the tooltips.
-* *Show Active Tooltip*: When this option is enabled, the tooltip for the active section will be visible next to the navigation bullet.
-* *Clickable Tooltip*: When this option is enabled, the tooltip clicks also go to the corresponding section.
-* *Bigger Navigation*: You can enable this option to see bigger navigation bullets.
+* `Section Navigation Style`: You can select the navigation bullet style with this option.
+* `Show Active Tooltip`: When this option is enabled, the tooltip for the active section will be visible next to the navigation bullet.
+* `Clickable Tooltip`: When this option is enabled, the tooltip clicks also go to the corresponding section.
+* `Bigger Navigation`: You can enable this option to see bigger navigation bullets.
+
+Responsive options can be configured for the selected device (desktop, tablet and mobile devices).
+
+* `Show`: You can show or hide the navigation bullets with this option responsively.
+* `Main Color`: You can choose the primary color of the bullets.
+* `Hover Color`: You can choose the primary color of the bullets when mouse is on the bullets.
+* `Active Color`: You can choose the primary color when the section bullet is active.
+* `Tooltip Background Color`: You can choose the background of the tooltips.
+* `Tooltip Text Color`: You can choose the text color of the tooltips.
+* `Space`: You can specify the distance from left/right of navigation bullets using this option.
 
 ### Slide Navigation
 
@@ -296,20 +297,23 @@ Slide navigation includes the options of the navigation bar made up of small cir
 ![FullPage for Elementor Slide Navigation Options](assets/fullpage-for-elementor/navigation-slide.jpg "Slide Navigation Options")
 
 **Options**
-* *Top*: The navigation bullets for the slide navigation will be shown at the top side of the section.
-* *Bottom*: The navigation bullets for the slide navigation will be shown at the bottom side of the section.
+* `Top`: The navigation bullets for the slide navigation will be shown at the top side of the section.
+* `Bottom`: The navigation bullets for the slide navigation will be shown at the bottom side of the section.
 
-When an option is selected, **Slide Navigation Settings** will be activated.
+When an option is selected, `Slide Navigation Settings` will be activated.
 
 ![FullPage for Elementor Slide Navigation Options](assets/fullpage-for-elementor/navigation-slide-options.jpg "Slide Navigation Options")
 
-* *Slide Navigation Style*: You can select the navigation bullet style with this option.
-* *Show*: You can show or hide the slide navigation bullets with this option responsively.
-* *Main Color*: You can choose the primary color of the bullets.
-* *Hover Color*: You can choose the primary color of the bullets when mouse is on the bullets.
-* *Active Color*: You can choose the primary color when the slide bullet is active.
-* *Space*: You can specify the distance from top/bottom of slide navigation bullets using this option.
-* *Bigger Slide Navigation*: You can enable this option to see bigger navigation bullets.
+* `Slide Navigation Style`: You can select the navigation bullet style with this option.
+* `Bigger Slide Navigation`: You can enable this option to see bigger navigation bullets.
+
+Responsive options can be configured for the selected device (desktop, tablet and mobile devices).
+
+* `Show`: You can show or hide the slide navigation bullets with this option responsively.
+* `Main Color`: You can choose the primary color of the bullets.
+* `Hover Color`: You can choose the primary color of the bullets when mouse is on the bullets.
+* `Active Color`: You can choose the primary color when the slide bullet is active.
+* `Space`: You can specify the distance from top/bottom of slide navigation bullets using this option.
 
 ### Control Arrows
 
@@ -317,8 +321,8 @@ This option determines whether to use control arrows for the slides to move righ
 
 ![Control Arrows Options](assets/fullpage-for-elementor/control-arrows-options.jpg "Control Arrows Options")
 
-* *Control Arrows Style*: The style of the control arrows.
-* *Control Arrows Color*: The color of the control arrows.
+* `Control Arrows Style`: The style of the control arrows.
+* `Control Arrows Color`: The color of the control arrows.
 
 ### Lock Anchors
 
@@ -348,7 +352,7 @@ Scrolling section includes the options about scrolling mechanism.
 
 ### Auto Scrolling
 
-This option defines whether to use the "*automatic*" scrolling or the "*normal*" one. It also has affects the way the sections fit in the browser/device window in tablets and mobile phones.
+This option defines whether to use the `automatic` scrolling or the `normal` one. It also has affects the way the sections fit in the browser/device window in tablets and mobile phones.
 
 ### Fit To Section
 
@@ -364,15 +368,15 @@ This option defines whether or not to create a scroll for the section/slide in c
 
 ![Scroll Overflow Options](assets/fullpage-for-elementor/scroll-overflow-options.jpg "Scroll Overflow Options")
 
-* **Show Scroll Overflow Scrollbars**
+* `Show Scroll Overflow Scrollbars`
 
   The scrollbars will be visible when enabled. Otherwise, it will be not visible, however still able to scroll inside the section.
 
-* **Fade Scroll Overflow Scrollbars**
+* `Fade Scroll Overflow Scrollbars`
 
   Fades the scroll bars when not used.
 
-* **Interactive Scroll Overflow Scrollbars**
+* `Interactive Scroll Overflow Scrollbars`
 
   The scrollbars can be clickable and scrollable by mouse when enabled.
 
@@ -400,6 +404,8 @@ This option defines whether horizontal sliders will loop after reaching the last
 
 This option defines the transition effect to use for the vertical and horizontal scrolling. It includes CSS3 and JS transition effects.
 
+The options that start with `CSS3` are the CSS3 animations and using these options are the best practice.
+
 ### Scrolling Speed
 
 Speed in milliseconds for the scrolling transitions.
@@ -416,19 +422,19 @@ This option defines vertical position of the content within sections.
 
 ### Responsive Width
 
-A normal scroll will be used under the defined width in pixels. A class fp-responsive is added to the body tag in case the user wants to use it for their own responsive CSS. For example, if set to 900, whenever the browser's width is less than 900 the plugin will scroll like a normal site.
+A normal scroll will be used under the defined width in pixels. A class `fp-responsive` is added to the body tag in case the user wants to use it for their own responsive CSS. For example, if set to 900, whenever the browser's width is less than `900` the plugin will scroll like a normal site.
 
 ### Responsive Height
 
-A normal scroll will be used under the defined height in pixels. A class fp-responsive is added to the body tag in case the user wants to use it for their own responsive CSS. For example, if set to 900, whenever the browser's height is less than 900 the plugin will scroll like a normal site.
+A normal scroll will be used under the defined height in pixels. A class `fp-responsive` is added to the body tag in case the user wants to use it for their own responsive CSS. For example, if set to 900, whenever the browser's height is less than `900` the plugin will scroll like a normal site.
 
 ### Fixed Elements
 
-This option defines which elements will be taken off the scrolling structure of the plugin which is necessary when using the css3 option to keep them fixed. It requires a string with the JavaScript selectors for those elements. (For example: fixedElements: '#element1, .element2')
+This option defines which elements will be taken off the scrolling structure of the plugin which is necessary when using the CSS3 option to keep them fixed. It requires a string with the JavaScript selectors for those elements. (For example: `#element1, .element2`)
 
 ### Normal Scroll Elements
 
-If you want to avoid the auto scroll when scrolling over some elements, this is the option you need to use. (useful for maps, scrolling elements etc.) It requires a string with the JavaScript selectors for those elements. (For example: normalScrollElements: '#element1, .element2'). This option should not be applied to any section/slide element itself.
+If you want to avoid the auto scroll when scrolling over some elements, this is the option you need to use. (useful for maps, scrolling elements etc.) It requires a string with the JavaScript selectors for those elements. (For example: `#element1, .element2`). This option should not be applied to any section/slide element itself.
 
 ### Custom CSS
 
@@ -502,13 +508,13 @@ Please follow the steps below, when you want to activate the extension on the pr
 
 ### Installing The Extension
 
-- Go to *FullPage for Elementor* settings page. You will see extension list.
+- Go to `FullPage for Elementor` settings page. You will see extension list.
 
 ![Extension List](assets/fullpage-for-elementor/extension-settings.jpg "Extension List")
 
 - Enter your *License Key* you've received via email upon the purchase for the corresponding extension.
 
-- Click on *Install Extension* button for the corresponding extension.
+- Click on `Install Extension` button for the corresponding extension.
 
 ![Installing Extension](assets/fullpage-for-elementor/extension-installing.jpg "Installing Extension")
 
@@ -540,7 +546,7 @@ If needed, any extra fullpage.js parameters can be used.
 
 ### Video Autoplay
 
-If the page has video(s) in sections, this parameter will make the videos play when the section is visible, otherwise pauses on section leave.
+If the page has video(s) in sections/slides, this parameter will make the videos play when the section is visible, otherwise pauses on section leave.
 
 ### Remove Theme Margins
 
@@ -552,11 +558,11 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 
 This option tries to make the header fixed at the top, and arranges the section content accordingly.
 
-**Theme Header Selector** option should be given as a JavaScript selector.
+`Theme Header Selector` option should be given as a JavaScript selector.
 
-**Is Header a Section** option should be enabled if your header element is inside a section.
+`Is Header a Section` option should be enabled if your header element is inside a section.
 
-**Theme Header Padding** option sets the section header paddings with respect to header height.
+`Theme Header Padding` option sets the section header paddings with respect to header height.
 
 If you are designing your theme header using Elementor sections, or added your header inside a section, enable **Is Header a Section?** option.
 
@@ -567,7 +573,8 @@ If you designed your theme header using Elementor, the *Theme Header Selector* o
 ![Show Theme Footer](assets/fullpage-for-elementor/show-theme-footer.jpg "Show Theme Footer")
 
 This option moves the footer inside the last auto-height section.
-**Theme Footer Selector** option should be given as a JavaScript selector.
+
+`Theme Footer Selector` option should be given as a JavaScript selector.
 
 ### Enable Elementor Animations
 
@@ -578,11 +585,11 @@ This option enables Elementor animations if scrollbars are disabled.
 
 ### Form Buttons
 
-This option applies a fix if there is a form inside the sections.
+This option applies a fix for the forms inside sections when Scroll Overflow option is enabled.
 
 ### Hide Content Before FullPage
 
-This option hides the content before FullPage loads. The content is shown as soon as FullPage is ready.
+When this option is enabled, an empty content will be shown before FullPage is loaded. The content is shown after FullPage is loaded and enabled.
 
 ## Advanced
 
