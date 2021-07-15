@@ -738,10 +738,6 @@ Sometimes with the update of Gutenberg, WordPress or other third party plugins, 
 
 ![License Settings](assets/fullpage-for-gutenberg/attemp-block-recovery.jpg "Attempt Block Recovery for FullPage for Gutenberg")
 
-#### I can't hide my sections responsively!
-
-You can't hide sections and slides using responsive options. Even if they seem hidden, they are actually there. However, you can hide the inner contents of sections and slides, including the columns.
-
 #### How do I remove anchors from URL?
 
 If you want to remove the anchors (your-domaion.com/`#anchor`), you can enable [Lock Anchors](#lock-anchors "Lock Anchors") or [Disable Anchors](#disable-anchors "Disable Anchors") option. Enabling one of these two options will remove the anchor part from the URL.
@@ -752,7 +748,7 @@ Some of the WordPress plugins or Javascript libraries that depend on scrolling m
 
 #### Updating From v1.X to v2.0
 
-FullPage for Gutenberg plugin has a major update that includes optimizations and enhancements. To update the plugin from `v1.X`, please follow the instructions below:
+FullPage for Gutenberg plugin has a major update that includes optimizations and enhancements. To update the plugin from `v1.X` to `v2.X`, please follow the instructions below:
 
 - Before updating, please take a database backup.
 
@@ -764,6 +760,13 @@ FullPage for Gutenberg plugin has a major update that includes optimizations and
 
   - Click on `Attempt Block Recovery` on all blocks that generate an error.
 
+  ![Attempt Block Recovery](assets/fullpage-for-gutenberg/attemp-block-recovery.jpg "Attempt Block Recovery")
+
   - Save the page and refresh. After saving, you should not see any error.
 
   - Check your page to test if everything works as expected. Please use [support](/contact "Contact") if there is an issue with the steps.
+
+<video controls preload="none">
+    <source src="assets/fullpage-for-gutenberg/migrating-from-v1-to-v2.mp4" type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>

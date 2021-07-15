@@ -155,6 +155,10 @@ body, html {
 .markdown a.button:focus{
   @apply ring outline-none;
 }
+
+.markdown video {
+  @apply w-full;
+}
 /*! purgecss end ignore */
 
 /* Documentation left sidebar */
