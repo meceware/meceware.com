@@ -89,7 +89,7 @@ This plugin simplifies creation of fullscreen scrolling websites with WordPress 
 
 ## Requirements
 
-* WordPress version should be at least 5.1.
+* WordPress version should be at least 5.6.
 * Elementor plugin should be active on the WordPress site and at least 2.7.3.
 
 ## Tutorial Video
@@ -128,6 +128,8 @@ You can use the plugin without any limitations once your license is activated.
 If you want to move your license to another domain, you will need to deactivate your license if activated. You can click on the `Deactivate` button to deactivate your license.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dZ4xvky-VfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you don't have access to your site, you can deactivate your license on the <a href="https://www.meceware.com/server/deactivate-fullpage/" target="_blank">deactivation page</a>.
 
 ## Sample Elementor Template
 
@@ -492,19 +494,7 @@ Extensions section includes FullPage Extension options. The extensions can be pu
 
 ***Note: These options are only available if at least one extension is purchased. The plugin is not bundled with these extensions.***
 
-### Activating The Extension
-
-When you purchase an extension, you will need to activate the extension for a domain. **Please note that, there is no deactivation for extensions**.
-
-You can use the extension without activating it on a domain (for example, a staging/development domain). When a non-activated extension is used on a domain, a red box will appear but it will be removed upon activation.
-
-If you are on a staging/development domain, please ignore that message and do not activate for the development domain. **The extension domain cannot be changed (no deactivation) and once activated, refund for the extension would not be possible**. Once moved to the production domain, you can activate it and the red box will be disappeared automatically.
-
-Please follow the steps below, when you want to activate the extension on the production domain.
-
-- Go to the <a href="https://alvarotrigo.com/fullPage/extensions/activationKey.html">activation web site</a>.
-
-- Choose your extension and enter your *License Key* you've received via email upon the purchase.
+***Note: After you purchase an extension, the extension can be installed using your extension license key and used without activation. Please note that, there is no deactivation for extensions.***
 
 ### Installing The Extension
 
@@ -520,7 +510,25 @@ Please follow the steps below, when you want to activate the extension on the pr
 
 - After a successfull installation, the page will refresh and the extension plugin should be installed.
 
+### Activating The Extension
+
+When you purchase an extension, you will need to activate your extension license for a domain. **Please note that, there is no deactivation for extensions**.
+
+You can use the extension without activating it on a domain (for example, a staging/development domain). ***When a non-activated extension is used on a domain, a red box will appear but it will be removed upon activation***.
+
+If you are on a staging/development domain, please ignore that message and do not activate for the development domain. **The extension domain cannot be changed (no deactivation) and once activated, refund for the extension would not be possible**. Once moved to the production domain, you can activate it and the red box will be disappeared automatically.
+
+If this is the first time you are using the extension (*hence the extension license is not activated*), you will see an orange box about the activation process after installing the extension plugin.
+
+![Before Activation](assets/fullpage-for-elementor/extension-no-activation.jpg "Before Activation")
+
+If you are on the production domain and you want to activate your license, click on `Activate Extension` button and follow the steps on the activation page.
+
+Once the activation process is completed, click on `Check Activation` button and the extension should be activated. ***The activation key is fetched automatically***.
+
 ![Extension Installed](assets/fullpage-for-elementor/extension-installed.jpg "Extension Installed")
+
+If you don't like the automatic activation process and you want to manually activate your license, go to the <a href="https://alvarotrigo.com/fullPage/extensions/activationKey.html">activation web site</a> and follow the on-screen steps to choose your extension and enter your *License Key* you've received via email upon the purchase.
 
 ### Using The Extension
 
@@ -561,6 +569,8 @@ This option tries to make the header fixed at the top, and arranges the section 
 `Theme Header Selector` option should be given as a JavaScript selector.
 
 `Is Header a Section` option should be enabled if your header element is inside a section.
+
+`Toggle Header` option enables header toggle, which the header is hidden when scrolling down, and the header is shown when scrolling up.
 
 `Theme Header Padding` option sets the section header paddings with respect to header height.
 
@@ -639,6 +649,10 @@ This parameter removes specified JavaScript file from output. Be aware, this mig
 #### Can I move my license to another server?
 
 Yes, you can! You can *deactivate* your license on your old server and use the same license on your new server. Don't forget to *Deactivate*. Please see [License Key](#license-key "License Key") section for more information.
+
+#### How can I deactivate my license if I don't have access to my site?
+
+You can *deactivate* your license on the <a href="https://www.meceware.com/server/deactivate-fullpage/" target="_blank">deactivation page</a>. You will need the domain of your site, your license key and your email you used to purchase the plugin.
 
 #### How can I generate the invoice for the plugin?
 
