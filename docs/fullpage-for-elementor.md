@@ -676,7 +676,7 @@ You can also try setting [Responsive Auto-Height](#section-behaviour "Section Be
 
 #### I cannot see my header and footer!
 
-By default, empty page template is enabled. To disable it, please take a look at the [tutorial video](#enable-empty-page-template "Enable Empty Page Template").
+By default, the plugin comes with an empty page template. This means that, while fullPage is enabled on your WordPress site, an empty page with no theme dependency will be loaded. That's why your header or footer does not appear on your site. To disable it, please take a look at the [tutorial video](#enable-empty-page-template "Enable Empty Page Template").
 
 #### I cannot scroll to my footer!
 
