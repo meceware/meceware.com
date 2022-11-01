@@ -9,13 +9,13 @@ group: Plugins
 sort: 2
 ---
 
-Create beautiful fullscreen scrolling web sites with **WordPress** and **Elementor**, fast and simple.
+Create beautiful full screen scrolling web sites with **WordPress** and **Elementor**, fast and simple.
 
 [![FullPage for Elementor](assets/fullpage-for-elementor/banner.png "FullPage for Elementor")](https://alvarotrigo.com/fullPage/wordpress-plugin-elementor/)
 
 <p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="/fullpage-for-elementor/">DEMO</a><span style="padding-left:10px;"></span><a class="button" target="_blank" href="https://gum.co/fullPageForElementor">BUY</a><span style="padding-left:10px;"></span><a class="button" href="#faq">FAQ</a></p>
 
-This plugin simplifies creation of fullscreen scrolling websites with WordPress and saves you big time.
+This plugin simplifies creation of full screen scrolling websites with WordPress and saves you big time.
 
 ## Top Features
 
@@ -89,7 +89,7 @@ This plugin simplifies creation of fullscreen scrolling websites with WordPress 
 
 ## Requirements
 
-* WordPress version should be at least 5.6.
+* WordPress version should be at least v5.6, recommended v6.x.
 * Elementor plugin should be active on the WordPress site and at least 2.7.3.
 
 ## Tutorial Video
@@ -109,17 +109,17 @@ This plugin simplifies creation of fullscreen scrolling websites with WordPress 
 * Click on **Browse** button. Select the `mcw-fullpage-elementor.zip` file of your plugin in your computer, and click **Install Now** button.
 * Active the plugin by clicking on **Activate Plugin** link to work with the plugin.
 
-![How To Install FullPage for Elementor Plugin](assets/fullpage-for-elementor/install.gif "How To Install FullPage for Elementor Plugin")
+![How To Install FullPage for Elementor Plugin](assets/fullpage-for-elementor/g01-install.gif "How To Install FullPage for Elementor Plugin")
 
 ## License Key
 
 The license key you obtained by buying the plugin can be entered at WordPress admin panel `FullPage for Elementor` settings under Elementor menu.
 
-![License Settings](assets/fullpage-for-elementor/settings.jpg "License Settings")
+![License Settings](assets/fullpage-for-elementor/s01-settings.jpg "License Settings")
 
 After entering the license, press on `Activate` button. This will activate the license.
 
-![Activated License Settings](assets/fullpage-for-elementor/settings-activated.jpg "Activated License Settings")
+![Activated License Settings](assets/fullpage-for-elementor/s02-settings-activated.jpg "Activated License Settings")
 
 You can use the plugin without any limitations once your license is activated.
 
@@ -131,6 +131,10 @@ If you want to move your license to another domain, you will need to deactivate 
 
 If you don't have access to your site, you can deactivate your license on the <a href="https://www.meceware.com/server/deactivate-fullpage/" target="_blank">deactivation page</a>.
 
+### License Dashboard
+
+If you want to see all your licenses, please visit the <a href="https://alvarotrigo.com/fullPage/dashboard/" target="_blank">dashboard</a>.
+
 ## Sample Elementor Template
 
 You can [download the Elementor template file](/template/fullpage-for-elementor-template.json) and load it via Elementor Template Library.
@@ -139,11 +143,11 @@ To load the template:
 * Create a new post/page with Elementor.
 * Click the Add Template From Library icon.
 
-![Add Template](assets/fullpage-for-elementor/template.jpg "Add Template")
+![Add Template](assets/fullpage-for-elementor/s03-template.jpg "Add Template")
 
 * Click the Import Templates button.
 
-![Import Template](assets/fullpage-for-elementor/template-import.jpg "Import Template")
+![Import Template](assets/fullpage-for-elementor/s04-template-import.jpg "Import Template")
 
 * Drag and drop the `fullpage-for-elementor-template.json` file to import it.
 
@@ -159,23 +163,23 @@ To load the template:
 
 *Note: Each content should be inside Elementor Section widgets. Only the contents inside the sections will be rendered and other content may break the script.*
 
-![Enable FullPage for Elementor](assets/fullpage-for-elementor/page-settings.jpg "Enable FullPage for Elementor")
+![Enable FullPage for Elementor](assets/fullpage-for-elementor/s05-page-settings.jpg "Enable FullPage for Elementor")
 
 ## Sections
 
 Each Elementor Section widget on the page is fullpage section.
 
-![How To Add Sections](assets/fullpage-for-elementor/add-sections.gif "How To Add Sections")
+![How To Add Sections](assets/fullpage-for-elementor/g02-add-sections.gif "How To Add Sections")
 
 ### Add Sections
 
 Drag and drop any Elementor widget inside the widget drop area, or click on the plus sign.
 
-![Elementor Drop Area](assets/fullpage-for-elementor/drop-area.jpg "Elementor Drop Area")
+![Elementor Drop Area](assets/fullpage-for-elementor/s06-drop-area.jpg "Elementor Drop Area")
 
 Every time a widget is added, a new section is created. You can check the sections via `Navigator`.
 
-![Elementor Navigator](assets/fullpage-for-elementor/navigator.jpg "Elementor Navigator")
+![Elementor Navigator](assets/fullpage-for-elementor/s07-navigator.jpg "Elementor Navigator")
 
 ### Remove Sections
 
@@ -183,7 +187,7 @@ Every time a widget is added, a new section is created. You can check the sectio
 
 ### Section Options
 
-![Section Options](assets/fullpage-for-elementor/section-options.jpg "Section Options")
+![Section Options](assets/fullpage-for-elementor/s08-section-options.jpg "Section Options")
 
 #### Has Horizontal Slides
 
@@ -193,13 +197,13 @@ This option enables the specified section as horizontal slides container.
 
 This option defines the behaviour of the section.
 
-![Section Behaviour](assets/fullpage-for-elementor/section-behavior.jpg "Section Behaviour")
+![Section Behaviour](assets/fullpage-for-elementor/s09-section-behaviour.jpg "Section Behaviour")
 
-When `Full Height` is selected, the height of the sections will be fullscreen.
+When `Full Height` is selected, the height of the sections will be full screen.
 
 When `Auto Height` is selected, the height of the section will take the height defined by your section/slide content.
 
-When `Responsive Auto Height` is selected, sections will be fullscreen until the responsive mode gets fired. Then they'll take the size required by their content, which could be bigger or smaller than the viewport.
+When `Responsive Auto Height` is selected, sections will be full screen until the responsive mode gets fired. Then they'll take the size required by their content, which could be bigger or smaller than the viewport.
 
 #### FullPage Anchor
 
@@ -213,11 +217,11 @@ This would be an example of a link with an anchor:
 
 #### Navigation Tooltip
 
-This option defines the tooltips to show for the navigation circles in case they are being used.
+This option defines the tooltips to show for the navigation bullets in case they are being used.
 
 #### Disable Scroll Overflow
 
-This option is used to prevent `fullpage.js` from creating the scrollbar in certain sections or slides. When Scroll Overflow is enabled but the scrollbars in this section is not needed, enable this option.
+This option is used to prevent `fullpage.js` from creating the scrollbar in certain sections or slides. Enable this option when [Scroll Overflow](#scroll-overflow) is enabled but the scrollbars in this section is not needed.
 
 #### Full Height Columns
 
@@ -233,7 +237,7 @@ Slides are the horizontal FullPage elements inside sections.
 
 Each `Inner Section` widget inside the Elementor Sections are set as FullPage Slides if [*Has Horizontal Slides*](#has-horizontal-slides) option of the section is enabled.
 
-![How To Add Slides](assets/fullpage-for-elementor/add-slides.gif "How To Add Slides")
+![How To Add Slides](assets/fullpage-for-elementor/g03-add-slides.gif "How To Add Slides")
 
 *Note: When a section is enabled as a Slide, only Inner Section widgets can be placed inside the section. No other widgets should be placed inside the section other than Inner Section.*
 
@@ -249,7 +253,7 @@ Each `Inner Section` widget inside the Elementor Sections are set as FullPage Sl
 
 ### Slide Options
 
-![Slide Options](assets/fullpage-for-elementor/slide-options.jpg "Slide Options")
+![Slide Options](assets/fullpage-for-elementor/s10-slide-options.jpg "Slide Options")
 
 If a custom anchor is needed for a slide instead of its index, you can enter the new slide anchor to `Slide Anchor` option. If set, the anchor of the slide will be `#section_anchor/slide_anchor`. If this option is left empty, the anchor of the slide will be `#section_anchor/2` where 2 is the slide number.
 
@@ -261,13 +265,13 @@ For Slide Navigation Colors, see [this section](#navigation-colors).
 
 Navigation section includes the options about section and slide navigation.
 
-![FullPage for Elementor Navigation Options](assets/fullpage-for-elementor/navigation.jpg "Navigation Options")
+![FullPage for Elementor Navigation Options](assets/fullpage-for-elementor/s11-navigation.jpg "Navigation Options")
 
 ### Section Navigation
 
 Section navigation includes the options of the navigation bar made up of small circles (bullets).
 
-![FullPage for Elementor Section Navigation Options](assets/fullpage-for-elementor/navigation-section.jpg "Section Navigation Options")
+![FullPage for Elementor Section Navigation Options](assets/fullpage-for-elementor/s12-navigation-section.jpg "Section Navigation Options")
 
 **Options**
 * `Left`: The navigation bullets for the section navigation will be shown at the left side of the page.
@@ -275,7 +279,7 @@ Section navigation includes the options of the navigation bar made up of small c
 
 When an option is selected, `Section Navigation Options` will be activated.
 
-![FullPage for Elementor Section Navigation Options](assets/fullpage-for-elementor/navigation-section-options.jpg "Section Navigation Options")
+![FullPage for Elementor Section Navigation Options](assets/fullpage-for-elementor/s13-navigation-section-options.jpg "Section Navigation Options")
 
 * `Section Navigation Style`: You can select the navigation bullet style with this option.
 * `Show Active Tooltip`: When this option is enabled, the tooltip for the active section will be visible next to the navigation bullet.
@@ -296,7 +300,7 @@ Responsive options can be configured for the selected device (desktop, tablet an
 
 Slide navigation includes the options of the navigation bar made up of small circles (bullets) for slides.
 
-![FullPage for Elementor Slide Navigation Options](assets/fullpage-for-elementor/navigation-slide.jpg "Slide Navigation Options")
+![FullPage for Elementor Slide Navigation Options](assets/fullpage-for-elementor/s14-navigation-slide.jpg "Slide Navigation Options")
 
 **Options**
 * `Top`: The navigation bullets for the slide navigation will be shown at the top side of the section.
@@ -304,7 +308,7 @@ Slide navigation includes the options of the navigation bar made up of small cir
 
 When an option is selected, `Slide Navigation Settings` will be activated.
 
-![FullPage for Elementor Slide Navigation Options](assets/fullpage-for-elementor/navigation-slide-options.jpg "Slide Navigation Options")
+![FullPage for Elementor Slide Navigation Options](assets/fullpage-for-elementor/s15-navigation-slide-options.jpg "Slide Navigation Options")
 
 * `Slide Navigation Style`: You can select the navigation bullet style with this option.
 * `Bigger Slide Navigation`: You can enable this option to see bigger navigation bullets.
@@ -321,7 +325,7 @@ Responsive options can be configured for the selected device (desktop, tablet an
 
 This option determines whether to use control arrows for the slides to move right or left.
 
-![Control Arrows Options](assets/fullpage-for-elementor/control-arrows-options.jpg "Control Arrows Options")
+![Control Arrows Options](assets/fullpage-for-elementor/s16-control-arrows-options.jpg "Control Arrows Options")
 
 * `Control Arrows Style`: The style of the control arrows.
 * `Control Arrows Color`: The color of the control arrows.
@@ -350,11 +354,11 @@ This option defines whether to push the state of the site to the browser's histo
 
 Scrolling section includes the options about scrolling mechanism.
 
-![FullPage for Elementor Scrolling Options](assets/fullpage-for-elementor/scrolling.jpg "Scrolling Options")
+![FullPage for Elementor Scrolling Options](assets/fullpage-for-elementor/s17-scrolling.jpg "Scrolling Options")
 
 ### Auto Scrolling
 
-This option defines whether to use the `automatic` scrolling or the `normal` one. It also has affects the way the sections fit in the browser/device window in tablets and mobile phones.
+This option defines whether to use the automatic scrolling or the normal one. It also has affects the way the sections fit in the browser/device window in tablets and mobile phones.
 
 ### Fit To Section
 
@@ -362,29 +366,19 @@ This option determines whether or not to fit sections to the viewport or not. Wh
 
 ### Scroll Bar
 
-This option determines whether to use scrollbar for the site or not. In case of using scroll bar, the autoScrolling functionality will still work as expected. The user will also be free to scroll the site with the scroll bar and fullPage will fit the section in the screen when scrolling finishes.
+This option determines whether to use scrollbar for the site or not. In case of using scroll bar, the [Auto Scrolling](#auto-scrolling) functionality will still work as expected. The user will also be free to scroll the site with the scroll bar and FullPage will fit the section in the screen when scrolling finishes.
 
 ### Scroll Overflow
 
-This option defines whether or not to create a scroll for the section/slide in case its content is bigger than the height of it. When set to true, your content will be wrapped by the plugin.
+This option defines whether or not to create a scroll for the section/slide in case its content is bigger than the height of it.
 
-![Scroll Overflow Options](assets/fullpage-for-elementor/scroll-overflow-options.jpg "Scroll Overflow Options")
+![Scroll Overflow Options](assets/fullpage-for-elementor/s18-scroll-overflow-options.jpg "Scroll Overflow Options")
 
-* `Show Scroll Overflow Scrollbars`
-
-  The scrollbars will be visible when enabled. Otherwise, it will be not visible, however still able to scroll inside the section.
-
-* `Fade Scroll Overflow Scrollbars`
-
-  Fades the scroll bars when not used.
-
-* `Interactive Scroll Overflow Scrollbars`
-
-  The scrollbars can be clickable and scrollable by mouse when enabled.
+`Mac Style Scroll Overflow` option enables a "mac style" for the scrollbar instead of the default one, which will look quite different in Windows computers.
 
 ### Big Sections Destination
 
-This option defines how to scroll to a section which size is bigger than the viewport. By default fullPage scrolls to the top if you come from a section above the destination one and to the bottom if you come from a section below the destination one. Possible values are top, bottom, default.
+This option defines how to scroll to a section which size is bigger than the viewport. By default FullPage scrolls to the top if you come from a section above the destination one and to the bottom if you come from a section below the destination one. Possible values are top, bottom, default.
 
 ### Continuous Vertical
 
@@ -406,7 +400,13 @@ This option defines whether horizontal sliders will loop after reaching the last
 
 This option defines the transition effect to use for the vertical and horizontal scrolling. It includes CSS3 and JS transition effects.
 
-The options that start with `CSS3` are the CSS3 animations and using these options are the best practice.
+When `CSS Easing` option is enabled, CSS3 transition animations are used. It is highly recommended to use CSS3 easing options.
+
+![CSS3 Easing Options](assets/fullpage-for-elementor/TODO.jpg "CSS3 Easing Options")
+
+When `CSS Easing` option is disabled, JavaScript transition animations are used.
+
+![JavaScript Easing Options](assets/fullpage-for-elementor/TODO.jpg "JavaScript Easing Options")
 
 ### Scrolling Speed
 
@@ -416,7 +416,7 @@ Speed in milliseconds for the scrolling transitions.
 
 Design section includes options about the elements of fullpage.
 
-![FullPage for Elementor Design Options](assets/fullpage-for-elementor/design.jpg "Design Options")
+![FullPage for Elementor Design Options](assets/fullpage-for-elementor/s19-design.jpg "Design Options")
 
 ### Vertical Alignment
 
@@ -446,7 +446,7 @@ You can add your custom CSS.
 
 Events section includes JavaScript events for the plugin.
 
-![FullPage for Elementor Events](assets/fullpage-for-elementor/events.jpg "Events")
+![FullPage for Elementor Events](assets/fullpage-for-elementor/s20-events.jpg "Events")
 
 ### afterRender
 
@@ -460,6 +460,10 @@ This callback is fired after resizing the browser window. Just after the section
 
 This callback is fired once the sections have been loaded, after the scrolling has ended.
 
+### beforeLeave
+
+This callback is fired right before leaving the section, just before the transition takes place. Returning false will cancel the move before it takes place.
+
 ### onLeave
 
 This callback is fired once the user leaves a section, in the transition to the new section. Returning false will cancel the move before it takes place.
@@ -471,6 +475,10 @@ This callback is fired once the slide of a section have been loaded, after the s
 ### onSlideLeave
 
 This callback is fired once the user leaves an slide to go to another, in the transition to the new slide. Returning false will cancel the move before it takes place.
+
+### onScrollOverflow
+
+This callback gets fired when a scrolling inside a scrollable section and [Scroll Overflow](#scroll-overflow) is enabled.
 
 ### afterResponsive
 
@@ -500,13 +508,13 @@ Extensions section includes FullPage Extension options. The extensions can be pu
 
 - Go to `FullPage for Elementor` settings page. You will see extension list.
 
-![Extension List](assets/fullpage-for-elementor/extension-settings.jpg "Extension List")
+![Extension List](assets/fullpage-for-elementor/s21-extension-settings.jpg "Extension List")
 
 - Enter your *License Key* you've received via email upon the purchase for the corresponding extension.
 
 - Click on `Install Extension` button for the corresponding extension.
 
-![Installing Extension](assets/fullpage-for-elementor/extension-installing.jpg "Installing Extension")
+![Installing Extension](assets/fullpage-for-elementor/s22-extension-installing.jpg "Installing Extension")
 
 - After a successfull installation, the page will refresh and the extension plugin should be installed.
 
@@ -520,13 +528,13 @@ If you are on a staging/development domain, please ignore that message and do no
 
 If this is the first time you are using the extension (*hence the extension license is not activated*), you will see an orange box about the activation process after installing the extension plugin.
 
-![Before Activation](assets/fullpage-for-elementor/extension-no-activation.jpg "Before Activation")
+![Before Activation](assets/fullpage-for-elementor/s23-extension-no-activation.jpg "Before Activation")
 
 If you are on the production domain and you want to activate your license, click on `Activate Extension` button and follow the steps on the activation page.
 
 Once the activation process is completed, click on `Check Activation` button and the extension should be activated. ***The activation key is fetched automatically***.
 
-![Extension Installed](assets/fullpage-for-elementor/extension-installed.jpg "Extension Installed")
+![Extension Installed](assets/fullpage-for-elementor/s24-extension-installed.jpg "Extension Installed")
 
 If you don't like the automatic activation process and you want to manually activate your license, go to the <a href="https://alvarotrigo.com/fullPage/extensions/activationKey.html">activation web site</a> and follow the on-screen steps to choose your extension and enter your *License Key* you've received via email upon the purchase.
 
@@ -538,7 +546,7 @@ After the extension is installed,
 
 - You should see the extension. Enable the corresponding extension and adjust its option(s) as suitable.
 
-![Extension Options](assets/fullpage-for-elementor/extension-options.jpg "Extension Options")
+![Extension Options](assets/fullpage-for-elementor/s25-extension-options.jpg "Extension Options")
 
 ### Removing the Extension
 
@@ -546,7 +554,7 @@ To remove the extension, go to your Plugins page and Deactivate/Delete the exten
 
 ## Customizations
 
-![FullPage for Elementor Customizations](assets/fullpage-for-elementor/customizations.jpg "Customizations")
+![FullPage for Elementor Customizations](assets/fullpage-for-elementor/s26-customizations.jpg "Customizations")
 
 ### Extra Parameters
 
@@ -562,7 +570,7 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 
 ### Force Fixed Theme Header
 
-![Force Fixed Theme Header](assets/fullpage-for-elementor/force-fixed-theme-header.jpg "Force Fixed Theme Header")
+![Force Fixed Theme Header](assets/fullpage-for-elementor/s27-force-fixed-theme-header.jpg "Force Fixed Theme Header")
 
 This option tries to make the header fixed at the top, and arranges the section content accordingly.
 
@@ -580,22 +588,18 @@ If you designed your theme header using Elementor, the *Theme Header Selector* o
 
 ### Show Theme Footer
 
-![Show Theme Footer](assets/fullpage-for-elementor/show-theme-footer.jpg "Show Theme Footer")
+![Show Theme Footer](assets/fullpage-for-elementor/s28-show-theme-footer.jpg "Show Theme Footer")
 
-This option moves the footer inside the last auto-height section.
+This option moves the footer inside a new auto-height section placed as last.
 
 `Theme Footer Selector` option should be given as a JavaScript selector.
 
 ### Enable Elementor Animations
 
-![Enable Elementor Animations](assets/fullpage-for-elementor/enable-elementor-animations.jpg "Enable Elementor Animations")
+![Enable Elementor Animations](assets/fullpage-for-elementor/s29-enable-elementor-animations.jpg "Enable Elementor Animations")
 
 This option enables Elementor animations if scrollbars are disabled.
 **Reset Elementor Animations** option can be enabled if animation reset is wanted when section/slide change.
-
-### Form Buttons
-
-This option applies a fix for the forms inside sections when Scroll Overflow option is enabled.
 
 ### Hide Content Before FullPage
 
@@ -603,7 +607,7 @@ When this option is enabled, an empty content will be shown before FullPage is l
 
 ## Advanced
 
-![FullPage for Elementor Advanced Parameters](assets/fullpage-for-elementor/advanced.jpg "Advanced Parameters")
+![FullPage for Elementor Advanced Parameters](assets/fullpage-for-elementor/s30-advanced.jpg "Advanced Parameters")
 
 ### Section Selector
 
@@ -652,7 +656,9 @@ Yes, you can! You can *deactivate* your license on your old server and use the s
 
 #### How can I deactivate my license if I don't have access to my site?
 
-You can *deactivate* your license on the <a href="https://www.meceware.com/server/deactivate-fullpage/" target="_blank">deactivation page</a>. You will need the domain of your site, your license key and your email you used to purchase the plugin.
+You can manage your licenses on the <a href="https://alvarotrigo.com/fullPage/dashboard/" target="_blank">dashboard</a>.
+
+Alternatively, you can *deactivate* your license on the <a href="https://www.meceware.com/server/deactivate-fullpage/" target="_blank">deactivation page</a>. You will need the domain of your site, your license key and your email you used to purchase the plugin.
 
 #### How can I generate the invoice for the plugin?
 
@@ -686,10 +692,6 @@ If scrollbars are disabled, only the content inside the sections are visible. To
 
 When the scrollbars are disabled and your content is greater than the screen height, some of your content might be left outside of the viewport. To display these, you can enable [Scroll Overflow](#scroll-overflow "Scroll Overflow") option. This will create an in-section scrollbar.
 
-#### I can't hide my sections responsively!
-
-You can't hide sections and slides using responsive options. Even if they seem hidden, they are actually there. However, you can hide the inner contents of sections and slides, including the columns.
-
 #### How do I remove anchors from URL?
 
 If you want to remove the anchors (your-domaion.com/`#anchor`), you can enable [Lock Anchors](#lock-anchors "Lock Anchors") or [Disable Anchors](#disable-anchors "Disable Anchors") option. Enabling one of these two options will remove the anchor part from the URL.
@@ -697,3 +699,29 @@ If you want to remove the anchors (your-domaion.com/`#anchor`), you can enable [
 #### Why my scroll based animations or events don't work?
 
 Some of the WordPress plugins or Javascript libraries that depend on scrolling mechanism such as sticky menus, animations etc. might not work if scroll bar is disabled using the plugin. Please enable the [Scroll Bar](#scroll-bar "Scroll Bar") option to enable scroll based animations.
+
+#### Updating From v1.X to v2.0
+
+FullPage for Elementor plugin has a major update that changes a lot of things under the hood! To update the plugin from `v1.X` to `v2.X`, please follow the instructions below:
+
+- Before updating, please take a **database backup** as a precaution.
+
+- Update FullPage for Elementor plugin to the latest version.
+
+- For each page/post designed with FullPage for Elementor (FullPage is enabled):
+
+  - Edit the page/post.
+
+  - Check [Easing](#easing) option under [Scrolling tab](#scrolling) of FullPage options. If you used a different CSS easing before, please check the option if it’s the correct one. If you used a JS easing on your site (for fixed background images as an example), please disable `CSS Easing` option and select the correct option from `Easing` option.
+
+  - `Top` and `Bottom` options are removed from [Vertical Alignment](#vertical-alignment) under [Design tab](#design) of FullPage options. Instead `Default` option can be selected and vertical alignment can be adjusted from Elementor section options. Please check the vertical alignment of sections.
+
+  - For Offset Section extension users, if you have changed the default option of `Data Centered` option for any section, please update it again to the correct value. This option can be found under FullPage option for each section.
+
+  - For users that have custom CSS or JavaScript options, please check your site after the update. You can use [support](/contact "Contact") for your customized scripts and styles.
+
+  - Save the page and refresh. After saving, you should not see any error.
+
+  - Check your page to test if everything works as expected.
+
+- That should be it :) For any issues, please use [support](/contact "Contact") and we will try our best to help you…

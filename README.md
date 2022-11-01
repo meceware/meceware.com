@@ -9,12 +9,6 @@ Developed with [Gatsby](https://www.gatsbyjs.org/).
 - Clone `heMenu` to `third-party/heMenu` folder. [heMenu](https://github.com/meceware/heMenu)
 - Run `npm run build`.
 
-## TODO
-
-- Scrollspy for docs pages.
-
-- Gif autoplay for markdown. `gatsby-remark-attr` and gifffer can be used.
-
 ## License
 
 MIT
