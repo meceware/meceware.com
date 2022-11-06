@@ -90,7 +90,7 @@ This plugin simplifies creation of full screen scrolling websites with WordPress
 ## Requirements
 
 * WordPress version should be at least v5.6, recommended v6.x.
-* Elementor plugin should be active on the WordPress site and at least 2.7.3.
+* Elementor plugin should be active on the WordPress site and at least 3.5.0, recommended v3.8.0.
 
 ## Tutorial Video
 
@@ -167,7 +167,7 @@ To load the template:
 
 ## Sections
 
-Each Elementor Section widget on the page is fullpage section.
+Each Elementor Section widget or top Container widget on the page is defined as fullpage section.
 
 ![How To Add Sections](assets/fullpage-for-elementor/g02-add-sections.gif "How To Add Sections")
 
@@ -183,7 +183,7 @@ Every time a widget is added, a new section is created. You can check the sectio
 
 ### Remove Sections
 
-* Right click on the section widget and click on `Delete`.
+* Right click on the section/container widget and click on `Delete`.
 
 ### Section Options
 
@@ -213,7 +213,7 @@ This would be an example of a link with an anchor:
 `http://yoursite.com/#secondPage`
 (which is the URL you will see once you access to that section manually) Notice the last part of the URL ends in `#secondPage`, if FullPage Anchor option for that section is set to `secondPage`.
 
-*Note: FullPage Anchor should NOT be the same with any anchor ID on the page.*
+*Note: FullPage Anchor should be a unique ID and should NOT be the same with any anchor ID on the page.*
 
 #### Navigation Tooltip
 
@@ -233,23 +233,23 @@ If you want to change the (left/right) navigation bullet colors for the active s
 
 ## Slides
 
-Slides are the horizontal FullPage elements inside sections.
+Slides are the horizontal FullPage elements inside fullpage sections.
 
-Each `Inner Section` widget inside the Elementor Sections are set as FullPage Slides if [*Has Horizontal Slides*](#has-horizontal-slides) option of the section is enabled.
+Each `Inner Section` or `Container` widget inside the Elementor Sections or top `Container` Widget are set as FullPage Slides if [*Has Horizontal Slides*](#has-horizontal-slides) option of the section is enabled.
 
 ![How To Add Slides](assets/fullpage-for-elementor/g03-add-slides.gif "How To Add Slides")
 
-*Note: When a section is enabled as a Slide, only Inner Section widgets can be placed inside the section. No other widgets should be placed inside the section other than Inner Section.*
+*Note: When a section is enabled as a Slide, only Inner Section or Container widgets can be placed inside the fullpage section. No other widgets should be placed inside the section other than Inner Section or Container.*
 
 ### Add Slides
 
 * Enable [*Has Horizontal Slides*](#has-horizontal-slides) option of the section.
-* Add `Inner Section` widgets inside the section.
-* Add your content inside the `Inner Section` widgets.
+* Add `Inner Section` widgets inside the section, or `Container` widgets inside the top container.
+* Add your content inside the `Inner Section` or `Container` widgets.
 
 ### Remove Slides
 
-* Remove the `Inner Section`.
+* Remove the `Inner Section` or `Container`.
 
 ### Slide Options
 
@@ -372,13 +372,7 @@ This option determines whether to use scrollbar for the site or not. In case of 
 
 This option defines whether or not to create a scroll for the section/slide in case its content is bigger than the height of it.
 
-![Scroll Overflow Options](assets/fullpage-for-elementor/s18-scroll-overflow-options.jpg "Scroll Overflow Options")
-
 `Mac Style Scroll Overflow` option enables a "mac style" for the scrollbar instead of the default one, which will look quite different in Windows computers.
-
-### Big Sections Destination
-
-This option defines how to scroll to a section which size is bigger than the viewport. By default FullPage scrolls to the top if you come from a section above the destination one and to the bottom if you come from a section below the destination one. Possible values are top, bottom, default.
 
 ### Continuous Vertical
 
@@ -396,17 +390,21 @@ This option defines whether scrolling up in the first section should scroll to t
 
 This option defines whether horizontal sliders will loop after reaching the last or previous slide or not.
 
+### Big Sections Destination
+
+This option defines how to scroll to a section which size is bigger than the viewport. By default FullPage scrolls to the top if you come from a section above the destination one and to the bottom if you come from a section below the destination one. Possible values are top, bottom, default.
+
 ### Easing
 
 This option defines the transition effect to use for the vertical and horizontal scrolling. It includes CSS3 and JS transition effects.
 
 When `CSS Easing` option is enabled, CSS3 transition animations are used. It is highly recommended to use CSS3 easing options.
 
-![CSS3 Easing Options](assets/fullpage-for-elementor/TODO.jpg "CSS3 Easing Options")
+![CSS3 Easing Options](assets/fullpage-for-elementor/s31-css-easing.jpg "CSS3 Easing Options")
 
 When `CSS Easing` option is disabled, JavaScript transition animations are used.
 
-![JavaScript Easing Options](assets/fullpage-for-elementor/TODO.jpg "JavaScript Easing Options")
+![JavaScript Easing Options](assets/fullpage-for-elementor/s32-js-easing.jpg "JavaScript Easing Options")
 
 ### Scrolling Speed
 
@@ -440,7 +438,7 @@ If you want to avoid the auto scroll when scrolling over some elements, this is 
 
 ### Custom CSS
 
-You can add your custom CSS.
+You can add your FullPage related custom CSS. This CSS will only be enabled when FullPage is enabled.
 
 ## Events
 
@@ -564,6 +562,10 @@ If needed, any extra fullpage.js parameters can be used.
 
 If the page has video(s) in sections/slides, this parameter will make the videos play when the section is visible, otherwise pauses on section leave.
 
+### Video Keep Playing
+
+If the page has video(s) in sections/slides, this parameter will make the videos play all the time, even if the section/slide is not in the view.
+
 ### Remove Theme Margins
 
 This option tries to remove the page wrapper margins, so the page can be full width.
@@ -574,15 +576,11 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 
 This option tries to make the header fixed at the top, and arranges the section content accordingly.
 
-`Theme Header Selector` option should be given as a JavaScript selector.
-
-`Is Header a Section` option should be enabled if your header element is inside a section.
+`Theme Header Selector` option should be given as a JavaScript/CSS selector.
 
 `Toggle Header` option enables header toggle, which the header is hidden when scrolling down, and the header is shown when scrolling up.
 
 `Theme Header Padding` option sets the section header paddings with respect to header height.
-
-If you are designing your theme header using Elementor sections, or added your header inside a section, enable **Is Header a Section?** option.
 
 If you designed your theme header using Elementor, the *Theme Header Selector* option should be set to `.elementor-location-header`.
 
@@ -593,13 +591,6 @@ If you designed your theme header using Elementor, the *Theme Header Selector* o
 This option moves the footer inside a new auto-height section placed as last.
 
 `Theme Footer Selector` option should be given as a JavaScript selector.
-
-### Enable Elementor Animations
-
-![Enable Elementor Animations](assets/fullpage-for-elementor/s29-enable-elementor-animations.jpg "Enable Elementor Animations")
-
-This option enables Elementor animations if scrollbars are disabled.
-**Reset Elementor Animations** option can be enabled if animation reset is wanted when section/slide change.
 
 ### Hide Content Before FullPage
 

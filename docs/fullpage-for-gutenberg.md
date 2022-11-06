@@ -204,7 +204,7 @@ This would be an example of a link with an anchor:
 `http://yoursite.com/#secondPage`
 (which is the URL you will see once you access to that section manually) Notice the last part of the URL ends in `#secondPage`, if FullPage Anchor option for that section is set to `secondPage`.
 
-*Note: FullPage Anchor should NOT be the same with any anchor ID on the page.*
+*Note: FullPage Anchor should be a unique ID and should NOT be the same with any anchor ID on the page.*
 
 #### Navigation Tooltip
 
@@ -660,7 +660,7 @@ This option tries to remove the page wrapper margins, so the page can be full wi
 
 This option tries to make the header fixed at the top, and arranges the section content accordingly.
 
-`Theme Header Selector` option should be given as a JavaScript selector.
+`Theme Header Selector` option should be given as a JavaScript/CSS selector.
 
 `Toggle Header` option enables header toggle, which the header is hidden when scrolling down, and the header is shown when scrolling up.
 
