@@ -562,9 +562,7 @@ If needed, any extra fullpage.js parameters can be used.
 
 If the page has video(s) in sections/slides, this parameter will make the videos play when the section is visible, otherwise pauses on section leave.
 
-### Video Keep Playing
-
-If the page has video(s) in sections/slides, this parameter will make the videos play all the time, even if the section/slide is not in the view.
+`Video Keep Playing` option will make the videos play all the time, even if the section/slide is not in the view.
 
 ### Remove Theme Margins
 
