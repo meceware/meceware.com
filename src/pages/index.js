@@ -35,9 +35,7 @@ const PageIndex = () => {
               <div className = 'flex items-center justify-center'>
                 <div className = 'relative mx-4 sm:mx-3 text-3xl sm:text-xl'><span className = 'text-gray-600 opacity-50 select-none'>&#123;</span></div>
                 <div className = 'relative'>
-                  <div className = 'block sm:inline-block text-xl text-gray-600 cursor-default select-none'>software engineer</div>
-                  <div className = 'hidden sm:inline-block text-xl text-gray-600 opacity-50 mx-2 cursor-default select-none'>/</div>
-                  <div className = 'block sm:inline-block text-xl text-gray-600 cursor-default select-none'>backend developer</div>
+                  <div className = 'block sm:inline-block text-xl text-gray-600 cursor-default select-none'>senior software engineer</div>
                 </div>
                 <div className = 'relative mx-4 sm:mx-3 text-3xl sm:text-xl'><span className = 'text-gray-600 opacity-50 select-none'>&#125;</span></div>
               </div>
@@ -60,6 +58,13 @@ const PageIndex = () => {
                 out: true,
               },
               {
+                className: 'bg-purple-500 hover:bg-purple-600',
+                desc: 'WordPress Plugin',
+                title: 'FullPage for Divi',
+                link: '/fullpage-for-divi/',
+                out: true,
+              },
+              {
                 className: 'bg-teal-500 hover:bg-teal-600',
                 desc: 'WordPress Plugin',
                 title: 'FullPage for Gutenberg',
@@ -67,24 +72,10 @@ const PageIndex = () => {
                 out: true,
               },
               {
-                className: 'bg-blue-500 hover:bg-blue-600',
-                desc: 'WordPress Plugin',
-                title: 'FullPage for WPBakery Page Builder',
-                link: '/fullpage-for-wpbakery-page-builder/',
-                out: true,
-              },
-              {
                 className: 'bg-red-500 hover:bg-red-600',
                 desc: 'WordPress Plugin',
                 title: 'Custom JS & CSS for Gutenberg',
                 link: '/docs/custom-js-css-gutenberg/',
-              },
-              {
-                className: 'bg-purple-500 hover:bg-purple-600',
-                desc: 'WordPress Plugin',
-                title: 'Elements for Users',
-                link: '/elements-for-users/',
-                out: true,
               },
               {
                 className: 'bg-pink-500 hover:bg-pink-600',

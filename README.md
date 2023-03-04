@@ -1,6 +1,6 @@
 ## by meceware
 
-Portfolio of software engineer / backend developer [Mehmet Celik](https://www.meeware.com/).
+Portfolio of senior software engineer / backend developer [Mehmet Celik](https://www.meeware.com/).
 
 Developed with [Gatsby](https://www.gatsbyjs.org/).
 

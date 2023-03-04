@@ -31,6 +31,17 @@ export default ( props ) => {
                     <li><Link to = { withPrefix( '/fullpage-for-elementor/page-piling/' ) } out = { true }>Page Piling</Link></li>
                   </ul>
                 </li>
+                <li><span>FullPage for Divi</span>
+                  <ul>
+                    <li><Link to = 'https://alvarotrigo.com/fullPage/wordpress-plugin-divi/' out = { true } target = '_blank'>Buy Now!</Link></li>
+                    <li><Link to = '/docs/fullpage-for-divi/' activeClassName = 'selected'>Documentation</Link></li>
+                    <li><Link to = { withPrefix( '/fullpage-for-divi/' ) } out = { true }>FullPage Demo</Link></li>
+                    <li><Link to = { withPrefix( '/fullpage-for-divi/responsive-mode/' ) } out = { true }>Responsive FullPage</Link></li>
+                    <li><Link to = { withPrefix( '/fullpage-for-divi/scroll-overflow/' ) } out = { true }>Scroll Overflow</Link></li>
+                    <li><Link to = { withPrefix( '/fullpage-for-divi/scrollbars/' ) } out = { true }>Scroll Bars</Link></li>
+                    <li><Link to = { withPrefix( '/fullpage-for-divi/page-piling/' ) } out = { true }>Page Piling</Link></li>
+                  </ul>
+                </li>
                 <li><span>FullPage for Gutenberg</span>
                   <ul>
                     <li><Link to = 'https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/' out = { true } target = '_blank'>Buy Now!</Link></li>
@@ -43,29 +54,16 @@ export default ( props ) => {
                     <li><Link to = '/fullpage-for-gutenberg/video-background/' out = { true }>Video Background</Link></li>
                   </ul>
                 </li>
-                <li><span>FullPage for WPBakery Page Builder</span>
-                  <ul>
-                    <li><Link to = 'https://codecanyon.net/item/fullpage-for-visual-composer/13112364' out = { true } target = '_blank'>Buy Now!</Link></li>
-                    <li><Link to = '/fullpage-for-wpbakery-page-builder/docs/' out = { true }>Documentation</Link></li>
-                    <li><Link to = '/fullpage-for-wpbakery-page-builder/' out = { true }>FullPage Demo</Link></li>
-                  </ul>
-                </li>
-                <li><span>Custom JS & CSS for Gutenberg</span>
-                  <ul>
-                    <li><Link to = 'https://codecanyon.net/item/custom-js-and-css-for-gutenberg/23562904' out = { true } target = '_blank'>Buy Now!</Link></li>
-                    <li><Link to = '/docs/custom-js-css-gutenberg/' activeClassName = 'selected'>Documentation</Link></li>
-                  </ul>
-                </li>
-                <li><span>Elements for Users</span>
-                  <ul>
-                    <li><Link to = 'https://codecanyon.net/item/elements-for-users-addon-for-visual-composer/13758689' out = { true } target = '_blank'>Buy Now!</Link></li>
-                    <li><Link to = '/elements-for-users/' out = { true }>More Information</Link></li>
-                  </ul>
-                </li>
                 <li><span>Block Permissions</span>
                   <ul>
                     <li><Link to = 'https://wordpress.org/plugins/block-permissions/' out = { true } target = '_blank'>Download</Link></li>
                     <li><Link to = '/docs/block-permissions-for-gutenberg/' activeClassName = 'selected'>Documentation</Link></li>
+                  </ul>
+                </li>
+                <li><span>Custom JS & CSS for Gutenberg</span>
+                  <ul>
+                    <li><Link to = '/contact' out = { true }>Buy Now!</Link></li>
+                    <li><Link to = '/docs/custom-js-css-gutenberg/' activeClassName = 'selected'>Documentation</Link></li>
                   </ul>
                 </li>
                 <li><Link to = 'https://meceware.github.io/iwideo/' out = { true } target = '_blank'>iWideo</Link></li>
@@ -73,7 +71,6 @@ export default ( props ) => {
                 <li><Link to = '/contact/' activeClassName = 'selected'>Contact</Link></li>
               </ul>
             </nav>
-
           </div>
         </div>
       </div>

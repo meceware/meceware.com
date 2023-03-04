@@ -4,14 +4,14 @@ title: Custom JS & CSS
 description: Easily add your JavaScript, CSS and meta tags anywhere on your WordPress page.
 featuredImage: assets/custom-js-css-gutenberg/banner-compressed.png
 button: buy
-link: https://codecanyon.net/item/custom-js-and-css-for-gutenberg/23562904
+link: https://meceware.com/contact/
 group: Plugins
-sort: 3
+sort: 5
 ---
 
-[![Custom JS & CSS](assets/custom-js-css-gutenberg/banner-compressed.png "Custom JS & CSS")](https://codecanyon.net/item/custom-js-and-css-for-gutenberg/23562904)
+[![Custom JS & CSS](assets/custom-js-css-gutenberg/banner-compressed.png "Custom JS & CSS")](https://meceware.com/contact/)
 
-<p style="text-align:center;padding:0 20px 20px;"><a class="button" target="_blank" href="https://codecanyon.net/item/custom-js-and-css-for-gutenberg/23562904">BUY</a></p>
+<p style="text-align:center;padding:0 20px 20px;"><a class="button" href="https://meceware.com/contact/">BUY</a></p>
 
 * Easily add your code anywhere on your WordPress page.
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mehmet Celik { software engineer / backend developer }',
-    description: 'Portfolio of Mehmet Celik, software engineer and backend developer.',
+    title: 'Mehmet Celik { senior software engineer }',
+    description: 'Portfolio of Mehmet Celik, senior software engineer and backend developer.',
     author: '@meceware',
     siteUrl: 'https://www.meceware.com',
   },

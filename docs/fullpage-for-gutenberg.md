@@ -6,7 +6,7 @@ featuredImage: assets/fullpage-for-gutenberg/banner.png
 button: buy
 link: https://alvarotrigo.com/fullPage/wordpress-plugin-gutenberg/
 group: Plugins
-sort: 1
+sort: 3
 ---
 
 Create beautiful full screen scrolling web sites with **WordPress** and **Gutenberg**, fast and simple.
@@ -91,7 +91,7 @@ This plugin simplifies creation of full screen scrolling websites with WordPress
 
 ## Requirements
 
-* WordPress version should be at least v5.6, recommended v6.x.
+* WordPress version should be at least v6.0.
 * Gutenberg editor should be active on the WordPress site.
 
 ## Tutorial Video
@@ -204,6 +204,8 @@ This would be an example of a link with an anchor:
 `http://yoursite.com/#secondPage`
 (which is the URL you will see once you access to that section manually) Notice the last part of the URL ends in `#secondPage`, if FullPage Anchor option for that section is set to `secondPage`.
 
+By default, uniquely generated anchors are used.
+
 *Note: FullPage Anchor should be a unique ID and should NOT be the same with any anchor ID on the page.*
 
 #### Navigation Tooltip
@@ -212,7 +214,7 @@ This option defines the tooltips to show for the navigation bullets in case they
 
 #### Disable Scroll Overflow
 
-This option is used to prevent `fullpage.js` from creating the scrollbar in certain sections or slides. Enable this option when [Scroll Overflow](#scroll-overflow) is enabled but the scrollbars in this section is not needed.
+This option is used to prevent creating the scrollbar in certain sections or slides. Enable this option when [Scroll Overflow](#scroll-overflow) is enabled but the scrollbars in this section is not needed.
 
 ### Section Background Options
 
@@ -470,7 +472,7 @@ This option defines whether horizontal sliders will loop after reaching the last
 
 ### Easing
 
-This option defines the transition effect to use for the vertical and horizontal scrolling. It includes CSS3 and JS transition effects.
+This option defines the transition effect to use for the vertical and horizontal scrolling. It includes CSS3 or JS transition effects.
 
 When `CSS Easing` option is enabled, CSS3 transition animations are used. It is highly recommended to use CSS3 easing options.
 
@@ -580,7 +582,7 @@ Extensions section includes FullPage Extension options. The extensions can be pu
 
 ***Note: These options are only available if at least one extension is purchased. The plugin is not bundled with these extensions.***
 
-***Note: After you purchase an extension, the extension can be installed using your extension license key and used without activation. Please note that, there is no deactivation for extensions.***
+***Note: After you purchase an extension, the extension can be installed using your extension license key and used without activation. Please note that, there is no deactivation or domain change for extensions.***
 
 ### Installing The Extension
 
@@ -598,7 +600,7 @@ Extensions section includes FullPage Extension options. The extensions can be pu
 
 ### Activating The Extension
 
-When you purchase an extension, you will need to activate your extension license for a domain. **Please note that, there is no deactivation for extensions**.
+When you purchase an extension, you will need to activate your extension license for a domain. **Please note that, there is no deactivation or domain change for extensions**.
 
 You can use the extension without activating it on a domain (for example, a staging/development domain). ***When a non-activated extension is used on a domain, a red box will appear but it will be removed upon activation***.
 

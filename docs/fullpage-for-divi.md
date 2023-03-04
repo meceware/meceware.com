@@ -6,7 +6,7 @@ featuredImage: assets/fullpage-for-divi/banner.png
 button: buy
 link: https://alvarotrigo.com/fullPage/wordpress-plugin-divi/
 group: Plugins
-sort: 3
+sort: 2
 ---
 
 Create beautiful full screen scrolling web sites with **WordPress** and **Divi**, fast and simple.

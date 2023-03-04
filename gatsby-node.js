@@ -4,13 +4,25 @@ const redirects = [
   // deprecated link
   {
     fromPath: '/fp',
-    toPath: '/fullpage-for-wpbakery-page-builder/',
+    toPath: '/',
+    isPermanent: true,
+  },
+  // deprecated link
+  {
+    fromPath: '/fullpage-for-wpbakery-page-builder',
+    toPath: '/',
+    isPermanent: true,
+  },
+  // deprecated link
+  {
+    fromPath: '/elements-for-users',
+    toPath: '/',
     isPermanent: true,
   },
   // deprecated link
   {
     fromPath: '/efu',
-    toPath: '/elements-for-users/',
+    toPath: '/',
     isPermanent: true,
   },
   // deprecated link
