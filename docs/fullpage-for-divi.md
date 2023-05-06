@@ -92,12 +92,6 @@ This plugin simplifies creation of full screen scrolling websites with WordPress
 * WordPress version should be at least recommended v6.0.
 * Divi theme or Divi Builder plugin should be active on the WordPress site and at least v4.19.0.
 
-## Tutorial Video
-
-`TODO: change video`
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XXXX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## How To Install
 
 * Login to your WordPress Dashboard.
@@ -613,10 +607,6 @@ If needed, the JavaScript selector of the slides can be given here.
 FullPage does not depend on jQuery. But if you want to load jQuery on the page (if not loaded already), enable this option.
 
 ### Enable Empty Page Template
-
-`TODO: add the new video here`
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VORmJRSs_fQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
 
 This option enables Empty Page Template option. When this option is enabled, an empty page with no theme dependency is loaded.
 

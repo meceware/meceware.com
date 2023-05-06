@@ -28,7 +28,6 @@ const DocsSideNav = ( props ) => {
                 <h3 className = 'font-semibold text-xl leading-8 text-gray-700'>{ title }</h3>
                 <ul className = 'p-2'>
                   { Object.values( groups[ title ] ).map( doc => {
-                    // TODO: active class name
                     return (
                       <li
                         className = { classNames(
